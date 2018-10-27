@@ -1,0 +1,25 @@
+
+# Dealing with the unexpected during data collection with adult, student participants
+
+We design experimental materials to be easily administered and as fail-safe as possible. However, that doesn't mean that nothing can go wrong during your data collection. Here is a description of how participant running usually goes, and then anecdotal exceptions that have occurred to us more than once.
+
+## The slow participant
+
+Most student participants are not new to taking part in research, and understand the drill. They want to get in and out of a session as quickly as possible. This is so typical that we must account for it in the design of experiments and ensure that participants learn that they will not benefit from random responding. However, some participants take much longer than is typical to respond. Sometimes, we never learn why, we simply see that their session takes a long time and their response speeds are much slower than average. Sometimes, these participants wish to discuss how they are doing the task in detail with the experimenter. If a participant wants to discuss the experiment with you, always engage with them as far as possible (up to explaining the hypothesis, which you can do after they finish).
+
+## The inattentive participant
+
+Remember how most student participants have learned that it is in their best interest to finish as quickly as possible? Some will try to speed everything along: they will grab the mouse and start trying to enter information without knowing what they are doing, will start mashing SPACE, ENTER and random keys to get the study going. Data from this behavior would not signify anything. This is the reason our policy is always to personally explain instructions and have a supervised practice session. Practice sessions should be designed so that the experimenter is certain the participant understands the task, and that the participant is not inadvertently rewarded for speeding through examples and instructions. 
+
+Sometimes we cannot ensure that a participant will not choose to randomly respond after they are left on their own. Our tasks are often hard, and it would not always be reasonable to impose an accuracy criterion (though sometimes it is). Our strategy is to ensure that they know how to do the task, not to set it up in such a way that non-responding would allow them to finish earlier, and to build in some trials that are meant to detect insincere attempts. Usually, this means including some very easy condition. Even if these trials are not meant to be part of the main design, they can be used to check that the participant understood what to do and was not responding randomly.
+
+## Sleepy, sick, or inebriated participants
+
+Student life is difficult, and sometimes you will greet a participant who isn't in fit condition to be working on anything. The PI has seen participants who came over directly from the pub, who were so ill that they ought to have been in bed, or who were so tired they could hardly sit up. These participants are trying too hard to meet their requirements. If you encounter a participant in this state, the best option is to offer to reschedule them. They will not learn anything from trying to take part.
+
+## The participant with a lot of questions
+
+Occasionally, a participant will want to know a lot of detail about how the study works or what will be done with the data. Intellectual curiousity is always to be encouraged. Engage with questions as best you can, but if you do not feel up to answering all of them, refer the participant to the PI or another senior, responsible researcher. 
+
+Often these participants want to see their own data. Our general policy is only to release anonymized data sets. Note down this participant's email address so that we can alert him or her when the anonymized data are available. In some cases, we may be okay with giving the participant their own data set as well. The reason that we generally do not do this is that in our experimental tasks, usually there is little (if anything) to be learned from one person's performance. There is nothing diagnostic we would be able to say about certain task scores, and there is some worry that a participant might try to read too much into their performance. Giving access to the anonymized data would be sufficient to let them have a go at data analysis and satisfy their curiosity about the results. 
+

@@ -1,0 +1,166 @@
+
+# Research ethics
+
+## Basic principles
+
+Scientists have done appalling things for the sake of advancing knowledge, such as intentionally infecting people with diseases, robbing graveyards for corpses to dissect, and leading participants to believe that they had critically injured someone else. To prevent scientists from committing such violations (as well as less dramatically awful ones), international conventions now protect the health, privacy, and autonomy of people participating in scientific research. 
+
+Researchers should be familiar with the Declaration of Helsinki. Generally, issues for concern may involve administering medical treatments that might end up causing harm, deceiving the participants, working with participants who are vulnerable and cannot consent on their own behalf, and protecting participants' sensitive data from actors who may use it for nefarious purposes. We do not carry out any research that involves experimental medical treatment or relies on adminstration of drugs. We also do not carry out any research that involves deceiving or fooling the participants. We sometimes work with children (who cannot provide consent) and though the data we collect is not obviously "sensitive" or useful to criminals, we acknowledge that we may not be capable of imagining such a use for it, and are therefore under obligation to protect participants' identities.
+
+The research we carry out does not even approach the inhumane violations that inspired the international conventions on research ethics. Nonetheless there are some principles we must always bear in mind to ensure that our participants are never made to work against their will, never put at risk beyond the risks they experience going about their daily lives, and always receive whatever compensation they were expecting when they agreed to take part in the study.
+
+### Informed consent
+
+All adult participants in our studies must explicitly consent to take part in the research. To do this in any meaningful way, they must always be given enough information about the study to understand what participating will be like and an honest assessment of the risks and rewards expected from participating. All participants must be offered this information and must indicate with a signature that they accept the main points before they are exposed to our studies.
+
+A template consent form is available in the shared lab OneDrive folder, in directory *templateForms*. The main things that must always be included in the information form:
+
+1. A description of what the participant must do: This is from the participant's perspective. It does not need to say anything about what we are manipulating or why. It needs to describe what the session will be like for the participant. Usually, a session will involve seeing some things on a computer screen, trying to remember them, and indicating somehow via computer whether they remember those things or not. The description should be procedural and should not bias the participant in favor of a particular outcome.
+
+2. A statement about any risks and rewards involved: Usually, our studies do not put the participant at any risk beyond what they experience in daily life. They might feel bored or tired during the session. They are agreeing to participate voluntarily, and depending on the circumstances, may receive experimental credits toward a course or a small amount of money for completing the session.
+
+3. A statement about what we do with their data: We are committed to transparently sharing all of the data that support our claims with the public. But that does not mean that an individual participant's identity should be publicly exposed. We must tell participants that we will eventually make the data set they are contributing towards available, but before we do, details that could identify them personally will be removed. The most obvious personal details (e.g., name, student id, address, etc.) we do not usually collect at all, and if we do, we never store them with the experimental data. 
+
+4. Finally, participants must be given information about who to contact if they are uncomfortable with any part of the research project. This will be the PI responsible (Candice Morey) and the administrator of the School Research Ethics Committee (psychethics@cardiff.ac.uk).
+
+### Anonymity
+
+Be sure to read the section in this manual about Data Security for a full description of university and lab policy on protecting participants' privacy. The short version is that we do not save "personal" or "identifiable" data, usually at all, and never with the experimental data. It is our responsibility to ensure that we do not save details that could render our data identifiable unless it is absolutely essential, and when we do, that we use a procedure that makes it easy to sever any link between the experimental ids and real-life ids. We apply this procedure as soon as possible, and once it is applied, we can no longer tell which data came from which person. Signed consent forms must be saved for 7 years. The consent forms we save should therefore *never* include the arbitrary id assigned to the participant's data. See also our procedures for [identifiers](#identifiers-and-data). 
+
+### Educational debriefing
+
+Whether the participants are part of the university community or from the local community at large, part of the university's mission is to educate. At the end of their session, all participants must be offered information about the research presented in jargon-free language. Participants should also be given information about where they may learn more, and should be given the opportunity to question the researcher working with them or the PI if desired.
+
+## Applying these principles in our lab
+
+Individual researchers will not typically need to acquire ethics approval independently. Most research projects will fall under one of our existing, approved generic [headings](#ethics-approvals-currently-in-place). Individual researchers will need to ensure that their experimental paperwork, data recording procedures, and protocol are all aligned with these principles:
+
+1. Written consent is always obtained.
+
+2. Consent includes explicit acknowledgement that anonymized data may be shared online.
+
+3. Arbitrary [participant ids](#identifiers-and-data) are never associated with participant's signed consent form.
+
+4. Any document that links personal ids with arbitrary ids must is treated as **confidential**. It cannot be accessible (in digital or print form) to anyone unnamed on the ethics application. It must be possible to destroy once the links are no longer needed. Once that destruction occurs, it must be truly impossible to re-forge the links. There cannot be a back-up way to reconstruct these links from any recorded data we preserve.
+
+5. An appropriate education debriefing is prepared for every project. Sample debriefings are available in the shared lab OneDrive folder, in the *templateForms* directory.
+
+## Assigning participant identifiers
+
+Assigning an arbitrary id number to each participant is one of the most important bits of lab procedure to get right to maintain data security. This is important both for ensuring that you know which data come from a single unique participant, and for ensuring that all the data you spend time collecting are preserved and usable.
+
+### Ids are always unique!
+
+Never re-use a participant number in the same project. Even if you know data will be invalid (e.g., test participant, doesn't meet inclusion criteria). This can cause confusion later, or can over-write files that you may not want to be overwritten.
+
+Always use the same participant number for the same person (e.g., if you are collecting data at multiple time points from the same person).
+
+*Vignette:* An ambitious MSc project involved collecting data from participants in two sessions. Participants ran two sessions each, performing two of the combinations in each session. Eventually though, all of these data needed to be analyzed together. (After all, that is the advantage of going to the effort to get the same data in each participant -  you get to do a within-participant analysis.) The student ran each session with a unique identifier. This certainly prevented any data from being accidentally overwritten, but it meant that when it was time to analyze the data, we needed a way to code which ids were actually the same people. There is no elegant way to do this, because there was no regularity between the ids to exploit (coding requires regular expressions). Below is the code we used to assign new participant ids to both of the data sets from each participant.  
+
+```{r, eval=F}
+
+# Also, need to link subject numbers. Student ran same participants on unique id numbers in different sessions. Table of links
+# 1=29
+d$Subject[d$Subject==1 | d$Subject==29]=129
+# 2=19
+d$Subject[d$Subject==2 | d$Subject==19]=219
+# 3=16
+d$Subject[d$Subject==3 | d$Subject==16]=316
+# 4=25
+d$Subject[d$Subject==4 | d$Subject==25]=425
+# 5=32
+d$Subject[d$Subject==5 | d$Subject==32]=532
+# 6=13
+d$Subject[d$Subject==6 | d$Subject==13]=613
+# 7=14
+d$Subject[d$Subject==7 | d$Subject==14]=714
+# 8=24
+d$Subject[d$Subject==8 | d$Subject==24]=824
+# 9=15
+d$Subject[d$Subject==9 | d$Subject==15]=915
+# 10=17
+d$Subject[d$Subject==10 | d$Subject==17]=1017
+# 11=39
+d$Subject[d$Subject==11 | d$Subject==39]=1139
+# 18=23
+d$Subject[d$Subject==18 | d$Subject==23]=1823
+# 22=36
+d$Subject[d$Subject==22 | d$Subject==36]=2236
+# 26=49
+d$Subject[d$Subject==26 | d$Subject==49]=2649
+# 27=31
+d$Subject[d$Subject==27 | d$Subject==31]=2731
+# 28=60
+d$Subject[d$Subject==28 | d$Subject==60]=2860
+# 30=42
+d$Subject[d$Subject==30 | d$Subject==42]=3042
+# 33=54
+d$Subject[d$Subject==33 | d$Subject==54]=3354
+# 34=63
+d$Subject[d$Subject==34 | d$Subject==63]=3463
+# 35=40
+d$Subject[d$Subject==35 | d$Subject==40]=3540
+# 37=46
+d$Subject[d$Subject==37 | d$Subject==46]=3746
+# 38=48
+d$Subject[d$Subject==38 | d$Subject==48]=3848
+# 41=65
+d$Subject[d$Subject==41 | d$Subject==65]=4165
+# 43=59
+d$Subject[d$Subject==43 | d$Subject==59]=4359
+# 44=75
+d$Subject[d$Subject==44 | d$Subject==75]=4475
+# 45=52
+d$Subject[d$Subject==45 | d$Subject==52]=4552
+# 47=78
+d$Subject[d$Subject==47 | d$Subject==78]=4778
+# 50=57
+d$Subject[d$Subject==50 | d$Subject==57]=5057
+# 51=69
+d$Subject[d$Subject==51 | d$Subject==69]=5169
+# 53=55
+d$Subject[d$Subject==53 | d$Subject==55]=5355
+# 56=66
+d$Subject[d$Subject==56 | d$Subject==66]=5666
+# 58=67
+d$Subject[d$Subject==58 | d$Subject==67]=5867
+# 61=64
+d$Subject[d$Subject==61 | d$Subject==64]=6164
+# 62=71
+d$Subject[d$Subject==62 | d$Subject==71]=6271
+# 68=74
+d$Subject[d$Subject==68 | d$Subject==74]=6874
+# 70=72
+d$Subject[d$Subject==70 | d$Subject==72]=7072
+# 73=76
+d$Subject[d$Subject==73 | d$Subject==76]=7376
+
+```
+
+While this code solved the immediate problem, it was a clunky solution that could have introduced many new errors that would be difficult to detect. What if the student lost his notes indicating which participant ids should be paired before running the analysis? What if those notes contained discrepancies he could not sort out (e.g., writing down the same id accidentally for two participants)? 
+
+Furthermore, the inelegant coding solution needed to manage this is also prone to human error. Mis-typing an id number could mean creation of a bogus pairing, accidentally assigning three sessions to one person, etc. After doing this, we had to check carefully that all resulting ids had the right number of sessions, trials, and conditions. 
+
+In the end, this worked out fine. But work and hassle would have been avoided if each participant were given a consistent id to start with, or alternatively if an id system was used that resulted in unique session ids that were related in some regular way. This problem would of course have been compounded if the design had been more complicated (e.g., what if there were > 2 sessions?) and as the sample size increased (imagine sorting this for 150 participants instead of ~30).
+
+
+### Ids are always arbitrary, anonymous
+
+The system you choose for assigning participant numbers should not preserve any links between the participant's identity in real-life and their identity as a unique contributor to your data set. Ids should not be derived from any university-linked identifier, address, or birthdate. They should not include the date or time of the session. Typical ways to assign ids are to choose a starting number and increment upward with each new participant.  
+
+If you are running a multi-experiment project, it is a good idea to segregate the participant ids of subsequent experiments in some way that makes them obviously distinct from previous experiments in the sequence (e.g., experiment 1 starts from 100, experiment 2 from 200, etc.). This way, if you ever combine data to perform a multi-experiment analysis, you still have unique participant ids. 
+
+
+## Ethics approvals currently in place
+
+### Limits of memory (EC.17.09.12.4952G)
+
+This is a generic approval valid until 31 August 2022. This heading covers behavioural studies with adults (17-40 years old) in which participants are asked to try to remember something, sometimes while also doing something else. This heading currently applies to single-session studies of 90 minutes or less.
+
+A new risk assessment will be due prior to the expiration of the project.
+
+### Memory storage and processing across the lifespan (EC.18.09.185339GR)
+
+This is a generic approval valid until 30 September 2023. This heading covers behavioural studies with adults and children, eye-tracking, and multi-session data collection. Examples of studies under this heading include manipulations of complex span tasks and the Flavell et al Registered Replication Report.
+
+A new rish assessment will be due prior to the expiration of the project.

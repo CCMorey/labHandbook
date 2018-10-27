@@ -1,0 +1,74 @@
+# Experimental protocols
+
+The experimental protocol is like a recipe for running your experiment. Each experimenter responsible for a discrete data-collection initiative must write the script for completing a run. This script should be sufficiently thorough that a trust-worthy, non-lab-member psychologist could run it correctly from the script alone. Imagine that you experience an emergency shortly before your participant is scheduled to arrive. Your protocol should be detailed enough that you could run into the Tower building, find another Year 3 or PG student, give them your protocol, and they could do everything from setting up the lab to saving the data.
+
+(Note, we would **never** actually do that. Of course non-lab members cannot do our lab work - see data security. But nonetheless your protocol should be detailed enough to allow it.)
+
+## Writing your protocol
+
+The PI will direct you to an appropriate example protocol to work from. Where possible, you may copy from the existing protocol. There no point using your creativity to find new ways to describe instituting similar set-ups. Familiarity also helps other lab members know when procedures were the same and when they differed.
+
+Writing a protocol is an exercise in theory-of-mind. You need to think carefully about what someone else does not know about your procedure, and address each point you can think of explicitly. 
+
+Our paradigms will typically include the following sections.
+
+### Setting up
+
+Your protocol should start with whatever must be done *before* the first participant arrives. As a general rule, set-up should be complete 10 minutes before the participant is expected. Assume this, and work backwards for determining how early setting up the lab for your procedure must begin.
+
+Set-up will typically include rebooting the computer(s), applying or checking any settings (e.g., for volume, screen refreshing, color temperature, etc.) specific to your experiment, and arranging the workspace. Include every detail that needs to be applied or checked for your experiment. 
+
+### Greeting and consent
+
+How will your participant find the lab? Will s/he be able to reach it on their own, or do you need to meet them outside? You want the participant to feel welcomed and not stressed about getting there, so plan to do what it takes to ensure they know where to go.
+
+Remember that your participant might never have been in a lab before. They might not know what they may touch, where they may sit, etc. Instruct them on everything - where to sit down, where to place their things, etc. If they bring food or drink in, they may not have it during the session, but you may be able to keep it somewhere safe for them while they are working.
+
+After the participant is settled, the first thing they must do is consent to take part in the study. Consider how you will present consent to them, and how you will emphasize the main points of the consent document.
+
+### Instructions and practice
+
+All of our experiments should be designed to guide participants through the task, so that after an initial practice period the experimenter is confident that the participant understands what to do. The best means for doing this will vary dependning on your project. Here are some general principles that we have found to be effective:
+
+Do not plan to have your participants read through instructions on their own. Of course they *can* read, but always keep in mind that many participants want to get in and out of the lab as quickly as possible. They will assume that they can just figure it out, and click through instructions like it's their iPhone legal agreement update. They will get to a trial, and call you over because they do not know when to respond or what button to press. 
+
+Either use the on-screen instructions to remind yourself of how you will aurally explain the instructions to the participant, or implement a read-instruction system where the participant cannot advance past a screen on their own. One way to do this is to end the instructions with something like "Now, get the researcher's attention before continuing", without telling participants how to get off the screen (and choosing a non-obvious exit key that the experimenter knows as the only way to advance). This way, you have the opportunity to check that the participant understands what they are about to do before they begin.
+
+Include practice trials, and design them to be representative of experimental trials, but easier. Over-represent the easiest conditions in your practice block so that it will be really obvious to participants what to do. Consider including an accuracy criterion for advancing to the experimental trials, where the participant has to repeat the practice block until they have proven they know how to do the task. (Note: this is more advisable for some paradigms or components than others, and only possible to implement for conditions where you expect very high accuracy.)
+
+Explain in your protocol how to guide participants through the instructions and practice. After you have run some pilot participants, you may want to update this section after seeing what they find difficult.
+
+### Monitoring or on-call
+
+For most of our studies, participants complete the experimental trials independently after passing the practice block. There may be elements of participants behavior that the researcher must monitor or record. If so, what are these? How do you make recordings? What decisions will the researcher need to make? Detail these instructions carefully so that another could reproduce exactly what you do to monitor the participant.
+
+If the researcher is simply "on-call", waiting for the participant to finish, what is the researcher allowed to do? Is it fine to do some quiet work during this time? Use the protocol to let the researcher know that.
+
+For what reasons is the participant likely to need assistance during this time? Is there a new block of trials with different instructions? Are there breaks? How often? Include these details in your protocol so that the researcher knows what to expect. Participants might ask about these details too. 
+
+### Saving and break-down
+
+When the participant is finished, the researcher should thank them, debrief them (and pay them, if they are working for pay). The researcher should escort the participant out of the secure lab area or building (for the participant's convenience as well as to comply with safety and security rules). What else needs to happen at the end of a run? Is there anything to be recorded? How should the researcher save the new data? After the final participant of the day, how should the lab be shut down? If the participant is getting EMS credits, how does one apply those?
+
+### Exceptions and unsual events
+
+These typically include what to do if a participant decides to withdraw consent. Participants may withdraw for any reason. They may request to have their data deleted. In case they do, you should detail how one would find the new data, and all the steps needed to show them it has been deleted. 
+
+If the participant is taking part for money and withdraws consent, it is only necessary to pay them for the amount of time they spent. Deciding how to pro-rate participant can be sensitive. A good general rule is to round up to the nearest quarter hour and apply the advertized hourly rate. 
+
+If the participant is taking part for EMS credit, then how to proceed depends on the reason they give. Do ask why they are withdrawing consent, and delete their data if requested. Depending on the reason for withdrawing, their credit might be pro-rated similarly to applying payment. This should always be discussed with the PI. 
+
+
+## Testing your protocol
+
+New protocols must always be tested, and perhaps revised, before beginning your study. If your experiment is part of an existing series, you may be authorized to skip testing because subsequent experiments are likely to be very similar to others in the series. But if your protocol is for a new project, or you are new to the lab, you must take it through the following tests.
+
+First, run through it yourself. Try not to bring any unwritten knowledge to interpreting your protocol. See if there is anything you need to add. You should always do a complete run of your experiment too, to check that it really does what you expect it do, stops when you think it will stop, etc.
+
+Then get another lab member to go through the protocol, and to actually perform the set-up as the protocol instructs. If the lab member cannot do it correctly based on the protocol instructions, then revise the protocol based on their feedback and try again. The lab member may also have suggestions for the remainder of the protocol for you to implement. Run the lab member through your experiment if you have not already pilot-tested it within the lab. The lab member may have suggestions for tweaking your instructions, or may help find uncaught errors or bugs.
+
+Once another lab member believes the protocol is fairly complete and the experiment runs as intended, the protocol and experiment should be shown to the PI. (Note: Depending on how much support the researcher needed to program the experiment, the PI may already have seen the experiment itself by this point.) If the PI finds it complete, then she will authorize you to schedule a naive particpant for a time that she (or another senior lab member) can observe. The observing lab member will be present for the set-up, at least the instructions/practice if not the whole run, and break-down to see how the protocol worked and how closely the researcher followed it. After this exercise, the observing lab member and researcher will discuss how the run went, whether any changes need to be made. If no changes need to be made, then the run may be considered the first participant in the study. This participant number may need to be marked for exclusion if major changes are requested. This decision should be explicit, and recorded in the notes the researcher keeps about participant runs.
+
+## Clearance to begin
+
+Once the researcher has completed a supervised run, and the supervising lab member finds the run successful, with no changes to implement, then the researcher is cleared to begin recruiting the necessary number of participants.

@@ -1,0 +1,248 @@
+--- 
+title: "Lab Handbook"
+author: "Candice Morey"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+fontsize: 12pt
+linestretch: 1.5
+description: "My aim with this document is to coordinate the researchers working with me so that the output from their projects is compatible, and so that every new student who joins my lab, however temporary, can find what they need to efficiently carry out their work."
+---
+
+# Joining a lab
+
+> No man is an island,
+>
+> Entire of itself,
+>
+> Every man is a piece of the continent,
+>
+> A part of the main.
+> 
+>
+> --- John Donne
+
+
+Although you will be familiar with the names of a handful of scientific heroes, science does not actually advance from the rapid insights of rare geniuses. Scientific knowledge accumulates through the consistent, often painstaking, efforts of groups of people. Across the world, webs of laboratories focusing on related topics work toward the common goal of understanding human memory and communicating how best to use our emerging knowledge to improve peoples' lives. You have opened this manual because you have joined one such group. The purpose of this manual is to help you understand your role in this endeavor and how to contribute in a way that makes your work maximally useful both to your local colleagues, your international colleagues, and the public, both now and branching into the future. 
+
+Joining a lab is about taking what you have to offer - your intellect, your skills, your diligence - and transforming them into new information. This is not just about you working for the lab: the lab also helps you acquire new skills, start your work from a more advanced point than you would be capable of on your own, and eventually boost the signal for transmitting the knowledge you helped create. Everyone contributing to the lab's functioning - undergraduate researchers just starting out, early career researchers, university support staff, the principal investigator - plays a vital role in this effort. To maximize the utility of the work we all do, it is crucial for everyone to: 
+
+  1. Know where to find information about the lab and the procedures we follow 
+  
+  2. Use the common conventions and procedures we have established 
+  
+  3. Propose and implement improvements to this workflow as new, better methods become available
+  
+  4. Communicate clearly and openly about our work
+  
+
+Lab procedures have been designed to ensure that the effort you put into your lab work goes as far as possible. Implementing these procedures may require learning something you don't currently know how to do, or doing a task a bit differently than you have done in another lab. We have examples and support available to help you manage this and learn quickly. No one should need to re-invent anything in this lab that can be copied and modified. You will not be starting your work from scratch, but with at least some building blocks that other researchers have prepared before. 
+
+## Hierarchy
+
+### Our core team
+
+Labs naturally have a hierarchy. While there is no unimportant work in the lab (it's all important), there is some work that requires a mature knowledge of the literature and a bird's eye view of our international colleagues' latest work. The ***PI*** (for Principal Investigator) and more senior research assistants are more likely to have this perspective. The most senior staff are also the most permanent, and will know the most about what we have done before, what other labs looking at similar topics are doing right now, and what the most glaring gaps in our knowledge about human memory are. The PI in particular will be the person most likely to be able to see how all the projects in the lab relate to each other and to other contemporary research, to see opportunities for publishing individual pieces of research or combining apparently different strains of research into a single article. The PI's ability to do this well depends on everyone's good documentation of their work and open communication about it. Ensuring that the state of your project is always discoverable to the PI increases the chances that it can form part of an important communication, which benefits everyone involved.
+
+***Post-docs*** (for post-doctoral researchers) have already earned their PhD, but have not yet started their own lab. Post-docs work here in order to learn more about working memory, get a bit more research experience and more publications, or learn about a method that they did not have the chance to learn about during their post-graduate studies. We are currently trying to secure funding to offer post-doctoral researchers the chance to work on particular projects, but we would also be interested in hosting post-doctoral researchers who want to apply for their own funding to work at Cardiff University on something related to working memory. Interested people should contact Candice Morey (MoreyC@cardiff.ac.uk) to discuss ideas for proposals.
+
+Post-docs are the most senior members of the lab after the PI. Depending on their mission, they might be working on their own project related to the lab's aims, or they might be leading a project that the PI secured funding for. They have experience working in other labs, and can bring their knowledge to our procedures and help us improve them. 
+
+***Postgraduate Researchers*** (PGRs) are undertaking lab work as part of their preparation of a postgraduate thesis. PGRs are usually PhD students working for 3 years, or maybe 1 + 3 years if their funding also includes a year of MSc study. PGRs' main priority is completing a coherent body of research for their thesis. All of the research they undertake for that project could end up being published on its own, but pieces could also be integrated into other lab projects. This is one reason cross-project continuity is important. PGRs will usually move on to a research job elsewhere once their education is complete. At that point, research they carried out that hasn't been published yet may not be their top priority, and the PI and post-docs can be helpful in ensuring that unfinished strands of work continue to flourish.
+
+PGRs may also be paid researchers carrying out designated, funded laboratory work. For most intents, temporary paid PGRs play similar roles to PhD students, but paid PGRs will be expected to work on multiple projects, as hours permit. Paid PGRs will have the chance to be involved deeply in projects, and may have the opportunity to take ownership of a line of research. Unlike PhD students, paid PGR time may be re-directed by the PI to deal with urgent work, like collecting data needed for an invited revision.
+
+***Undergraduate Researchers*** (UGRs) are a diverse group of students with a variety of reasons for joining the lab. Some will join the lab to carry out their final-year project, and will be active lab members from 1 October until 30 April of a single academic year. Others might be visiting students (on Erasmus fellowships or an internship scheme) working for a set period as long as a calendar year. Others might be working for a short period during the summer (e.g., on a CUROP fellowship). Most UGRs are involved for less than a year, and therefore must be integrated into a larger project. UGRs learn basic research skills working in the lab, and if involved in a self-contained project (like a UG dissertation), they also take responsibility for interim communications about the work they carried out. Because their time in the lab is so limited, it is very important that UG research is well-documented so that the lab can efficiently carry it forward.
+
+### How the hierarchy works
+
+The PI, for better or worse, shoulders responsibility for the work conducted by her lab group. While everyone involved in the work will be acknowledged when work we have done is published or praised, the PI will always be primarily responsible for correcting problems when they arise, no matter who really caused them. Our work can be questioned years after it has been carried out and published, meaning the PI is the only person committed to this for long enough to realistically keep this committment. 
+
+For some post-doctoral and PGR projects, the researchers involved might share a long-term commitment to the research and be the "local PI" on the work. In those cases, they will act as the primary person responsible for those projects. Even so, the PI must always have access to enough information about these projects to independently reproduce analyses and replicate findings.
+
+While the PI thinks in terms of large, multi-experiment projects, lab researchers at all levels will have the responsibility for individual experiments, projects, or component projects. Elements of any project must always be documented. Every project has designated milestones at which documentation should be completed, backed-up, and shared (at least with the lab group, often publicly). This standard workflow will be described in more depth later. Highlights:
+
+  1. Whenever a project is communicated at a conference or published, the documentation, anonymized data, and reproducible analysis scripts supporting the communication must go live unless doing so would violate our ethics agreement (which in our lab, should not ordinarily happen).
+  
+  2. Whenever a lab member moves on from the lab, every project s/he led must be documented and made accessible to the PI on ***OSF*** (for Open Science Framework; osf.io). At the point, if the project is not published, the PI must be given full editing authority along with the former lab member.
+
+  
+The work we do in the lab is the PI's life's work. You can count on her to see where the projects you did that were not publishable on their own may become useful when combined with the output of other projects. In our list of publications, the contributions of UGR and PGR lab members are emphasized. Data sufficient for a research paper can take years to accumulate; in some of these cases, the student co-authors had completed their piece of the project many years before the paper was published. The ongoing work of our lab can help boost your work even after you have moved on, but that is only possible if the remaining lab members can fully understand and reproduce the work you did. 
+
+No one can accomplish the work we are striving to do alone. By joining this lab, you are jumping into a big, partially-completed project, whether you realize it or not. Help me make your efforts flourish for this big endeavor and for your career by learning about how this one cog in the grand machinery of cognitive science operates.
+
+## Current lab personnel
+
+Dr. Candice Coker Morey, Prinicipal Investigator
+
+Dr. Tanya Joseph, Post-doctoral Research Assistant
+
+### PGRs
+
+### UGRs
+
+Laura Bentley
+
+Emily Charnaud
+
+Kirsten McDermott
+
+Jone McKeever Garay
+
+Eden Rendell
+
+
+## School of Psychology staff who support us
+
+* IT services (it-servicedesk@cardiff.ac.uk) help with computing equipment needs.
+
+* Research administrators (psych-research-admin@cardiff.ac.uk) help with putting together and submitting grant applications.
+
+* Open Access adminstrators need to know when a paper has been accepted for publication, and can help facilitate making it OA and paying OA journal fees (Lisa Kennedy, Psych-OpenAccess@cardiff.ac.uk)
+
+* Open Science Working Group (OSWG; Candice Morey and Chris Chambers, Chairs) offers advice on working transparently and shapes the School of Psychology's policy on research transparency
+
+
+## Local collabortors and academics interested in memory or related things
+
+[Prof. Dylan Jones](http://psych.cf.ac.uk/contactsandpeople/jonesdm.php)
+
+[Prof. Bill Macken](http://psych.cf.ac.uk/contactsandpeople/macken.php)
+
+[Dr. Richard Morey](http://psych.cf.ac.uk/contactsandpeople/moreyr.php)
+
+[Dr. Phil Morgan](http://psych.cf.ac.uk/contactsandpeople/morganphil.php)
+
+[Dr. Lisa Evans](http://psych.cf.ac.uk/contactsandpeople/evanslh.php)
+
+[Dr. Travis Proulx](http://psych.cf.ac.uk/contactsandpeople/proulxt.php)
+
+
+## Current and recent international collaborators
+
+[Dr. Richard Allen, Leeds University](https://medhealth.leeds.ac.uk/profile/1300/958/richard_allen)
+
+[Dr. Angela AuBuchon, Boys Town National Research Hospital](https://www.boystownhospital.org/research/Faculty/Pages/Angela-AuBuchon.aspx)
+
+[Dr. Bonnie Auyeung, University of Edinburgh](https://www.ed.ac.uk/profile/bonnie-auyeung)
+
+[Dr. Louise Brown, University of Strathclyde](https://www.strath.ac.uk/staff/brownlouisedr/)
+
+[Dr. Nic Chevalier, University of Edinburgh](https://www.ed.ac.uk/profile/nicolas-chevalier)
+
+[Prof. Nelson Cowan, University of Missouri](http://memory.psych.missouri.edu/cowan.shtml)
+
+[Dr. Steve Darling, Queen Margaret University](https://www.qmu.ac.uk/schools-and-divisions/psychology-and-sociology/psychology-and-sociology-staff/dr-stephen-darling/)
+
+[Prof. Emily Elliott, Louisiana State University](https://www.lsu.edu/hss/psychology/faculty/cognitive/elliott.php)
+
+[Dr. Jelena Havelka, Leeds University](https://medhealth.leeds.ac.uk/profile/1300/956/jelena_havelka)
+
+[Prof. Julia Karbach, University of Koblenz-Landau](https://www.uni-koblenz-landau.de/en/campus-landau/fb8/entwicklungspsychologie-und-padagogische-psychologie-en/team/prof-julia-karbach)
+
+[Dr. Naomi Langerock, University of Geneva](https://www.unige.ch/fapse/decopsy/group/patrick/)
+
+[Dr. Stephen Rhodes, University of Missouri](https://psychology.missouri.edu/people/rhodes)
+
+[Dr. Evie Vergauwe, University of Geneva](https://www.unige.ch/fapse/decopsy/group/evie/)
+
+[Dr. Claudia von Bastian, Sheffield University](https://www.sheffield.ac.uk/psychology/staff/academic/claudia-von_bastian)
+
+
+## External PGRs
+
+Erminia Fiorentino, University of Edinburgh
+
+Anthea Allan, Queen Margaret University
+
+
+## Alumni
+
+Dr Jason Doherty (PGR co-supervisee, University of Edinburgh)
+
+Dr. Jaroslaw Lelonkiewcisz (PGR, University of Edinburgh)
+
+Dr. Jonathan Mall (PGR supervisee, Rijksuniversiteit Groningen)
+
+Dr. Edyta Sasin (PGR co-supervisee, Rijksuniversiteit Groningen)
+
+Dr. Florian Sense (PGR co-supervisee & UGR project, Rijksuniversiteit Groningen)
+
+Anthea Allan (MSc project, University of Edinburgh)
+
+Margot Holweg (MSc project, Rijksuniversiteit Groningen)
+
+Monica Miron (MSc project, University of Edinburgh)
+
+Lewis Montgomery (MSc project, University of Edinburgh)
+
+Rob Nijenkamp (MSc project, Rijksuniversiteit Groningen)
+
+Marina Nikoletsopoulou (MSc project, University of Edinburgh)
+
+Lieke Roetmann (MSc project, University of Edinburgh)
+
+Karim Rivera-Lares (MSc project, University of Edinburgh)
+
+Madeleine van der Reijden (MSc project, Rijksuniversiteit Groningen)
+
+Gary Wells (MSc project, University of Edinburgh)
+
+Andrea Winkens (MSc project, Rijksuniversiteit Groningen)
+
+Ieva Zeromskaite (MSc project, University of Edinburgh)
+
+Amy Andrews (UGR, University of Edinburgh)
+
+Libby Best (UGR project, Cardiff University)
+
+Dr. Malte Bieler (UGR project, Rijksuniversiteit Groningen)
+
+Rieke Buggenthin (UGR project, Rijksuniversiteit Gronginen)
+
+Yongqui Cong (UGR project, Rijksuniversiteit Groningen)
+
+Gita Gudka (UGR project, Cardiff University)
+
+Christian Hummeluhr (UGR, Rijksuniversiteit Groningen)
+
+Will King (UGR project, University of Edinburgh)
+
+Franziska Lehnert (UGR project, Rijksuniversiteit Groningen)
+
+Tuomos Ludstrom (UGR, Rijksuniversiteit Groningen)
+
+Robin Macy (UGR project, University of Edinburgh)
+
+Silvana Mareva (UGR, University of Edinburgh)
+
+Leire Martin Mendez (UGR, Rijksuniversiteit Groningen)
+
+Anne Muth (UGR project, Rijksuniversiteit Groningen)
+
+Sophia Oelmann (UGR project, Rijksuniversiteit Groningen)
+
+Viktorija Pratuseviciute (UGR project, University of Edinburgh)
+
+Mindi Price (UGR, Rijksuniversiteit Groningen)
+
+Christina Protopapa (UGR project, Cardiff University)
+
+Nelly Rahmede (UGR project, Rijksuniversiteit Groningen)
+
+Lee Robson (UGR project, University of Edinburgh)
+
+Gintare Siugzdinyte (UGR project, University of Edinburgh)
+
+Teddy Spassova (UGR project, University of Edinburgh)
+
+Dr. Michael J. Wolff (UGR project, Rijksuniversiteit Groningen)
+
+Dr. Berry van den Berg (UGR project, Rijksuniversiteit Groningen)
+
+Yixia Zheng (UGR project, Rijksuniversiteit Groningen)
+
