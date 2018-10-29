@@ -54,7 +54,7 @@ When the participant is finished, the researcher should thank them, debrief them
 
 These typically include what to do if a participant decides to withdraw consent. Participants may withdraw for any reason. They may request to have their data deleted. In case they do, you should detail how one would find the new data, and all the steps needed to show them it has been deleted. 
 
-If the participant is taking part for money and withdraws consent, it is only necessary to pay them for the amount of time they spent. Deciding how to pro-rate participant can be sensitive. A good general rule is to round up to the nearest quarter hour and apply the advertized hourly rate. 
+If the participant is taking part for money and withdraws consent, it is only necessary to pay them for the amount of time they spent. Deciding how to pro-rate participant pay can be sensitive. A good general rule is to round up to the nearest quarter hour and apply the advertized hourly rate. 
 
 If the participant is taking part for EMS credit, then how to proceed depends on the reason they give. Do ask why they are withdrawing consent, and delete their data if requested. Depending on the reason for withdrawing, their credit might be pro-rated similarly to applying payment. This should always be discussed with the PI. 
 

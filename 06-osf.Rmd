@@ -1,12 +1,12 @@
 # Working transparently on OSF
 
-In Chapter 1, I described how we are working together on something bigger than any single project. My role is both to facilitate your project while you are completing it and to carry it forward when possible after you are finished with it. To do both of those I things, I need to be able to see your work. I need to know what you have finished (and by extension, what you are currently working on) and I need to be able to find your finish products and comprehend them even if I look them up years after you finished them. That means that you need to curate your work in some place that I can always access. By *curate*, I mean create support that guides me through your work so that I, or any one else, can figure out exactly what you did. 
+In Chapter 1, I described how we are working together on something bigger than any single project. My role is both to facilitate your project while you are completing it and to carry it forward when possible after you are finished with it. To do both of those I things, I need to be able to see your work. I need to know what you have finished (and by extension, what you are currently working on) and I need to be able to find your finished products and comprehend them even if I look them up years after you finished them. That means that you need to curate your work in some place that I can always access. By *curate*, I mean create support that guides me through your work so that I, or any one else, can figure out exactly what you did. 
 
 It is a chore to curate the materials and data from a project after it is already finished. You forget quite a lot even in the months between starting and finishing a short project. However, while you are working on the project you are actually doing the work I mean when I say *curating*: you frequently need to explain to me or other colleagues how your experiment works or what you did to the data. So, what I insist on is that you do this in a permanent way by putting this information on ***OSF*** (that's for Open Science Framework), rather than in a private way like jotting it down on your private notebook.
 
 ## The OSF environment
 
-The OSF is a web-based repository that scientists use to organize their research. OSF is free to use. Sign up for an account on OSF by visiting osf.io and clicking the green **Sign Up** button at the top of the page.
+OSF is a web-based repository that scientists use to organize their research. OSF is free to use. Sign up for an account on OSF by visiting [osf.io](osf.io) and clicking the green **Sign Up** button at the top of the page.
 
 Depending on what you are working on, you may need to create a new project or you may be added as a Contributor to an existing project. 
 
@@ -24,7 +24,7 @@ Remember that your project, though new to you, may be embedded with some related
 
 ### Becoming a contributor
 
-One of the lab members may add you as a contributor to an existing OSF page. This will enable you to at least read, and probably read and edit, the existing page. Our projects usually have the same directory structure, but the number of sub-directories in each section may vary depending on how many studies fall under one project heading. If you are added to an existing project, first familiarize yourself with what is there and how it is organized. Then, work discuss with one of the other contributors how you should add to the page. Most likely, there will sub-directories in each folder corresponding to each related project, and you will be asked to create sub-directories for your project.
+One of the lab members may add you as a contributor to an existing OSF page. This will enable you to at least read, and probably read and edit, the existing page. Our projects usually have the same directory structure, but the number of sub-directories in each section may vary depending on how many studies fall under one project heading. If you are added to an existing project, first familiarize yourself with what is there and how it is organized. Then, discuss with one of the other contributors how you should add to the page. Most likely, there will sub-directories in each folder corresponding to each related project, and you will be asked to create sub-directories for your project.
 
 ### Naming conventions
 
@@ -62,7 +62,7 @@ Your Preliminary Plans directory may also include work you did that informed you
 
 You will need to get, modify, or create software to display stimuli and collect responses, craft a consent form and debriefing statement for your participants, work up an experimental protocol, and test that these materials work to all the contributors' satisfaction.
 
-Once we are happy the materials (i.e., they have been pilot-tested, the output has been checked, etc.) they go in their appropriate sub-directories.
+Once we are happy with the materials (i.e., they have been pilot-tested, the output has been checked, etc.) they go in their appropriate sub-directories.
 
 ### Then you work on data analysis
 
@@ -80,7 +80,7 @@ OSF provides free storage for your materials and data. You can think of it as a 
 
 Making a *registration* creates a frozen, time-stamped version of your project. Registrations cannot be changed, while projects can. Someone could remove data from a project, but not from a registration. It makes sense to register your project at key moments where you might want a permanent record of what you thought before the next phase. Generally, we want to register a project:
 
-1. When we have recoreded the definitive study design and predictions
+1. When we have recorded the definitive study design and predictions
 2. After the anonymized data are uploaded
 3. When the analyses are finished
 4. When the manuscript is submitted (repeat as necessary)
@@ -94,7 +94,7 @@ You may be added to an ongoing project, and assume responsibility for some new c
 
 There are some research materials that it is always okay to copy, or modify slightly for a new purpose. You should always make your consent form from the lab's template. Doing this ensures that important legalese that should be in the form is always there. You do not need to come up with new, original ways to program the same experiment or script the same analysis; it is always fine to copy an existing sample and modify it slightly to meet your needs. You should acknowledge the original creator when doing this, if the original creator is not already a bibliographic contributor on your project (if s/he is, then s/he will already get acknowledged in your work). 
 
-You should not absolutely copy text destined for your manuscript, if you are producing a dissertation or thesis based on the work. Dissertations and theses differ from group-written manuscripts in that a student is composing them to show what s/he has learned about the work and about writing an empirical report in general. If your project is a dissertation or thesis, you must write your work originally, not quote or refer heavily to the method or result from a related lab project. You may look at any example documents we have to see what the other authors included, but then close the example and write your own.
+You should not absolutely copy text destined for your manuscript if you are producing a dissertation or thesis based on the work. Dissertations and theses differ from group-written manuscripts in that a student is composing them to show what s/he has learned about the work and about writing an empirical report in general. If your project is a dissertation or thesis, you must write your work originally, not quote or refer heavily to the method or result from a related lab project. You may look at any example documents we have to see what the other authors included, but then close the example and write your own.
 
 If you are working on a project that follows on from another one and is not being submitted for a university degree, then you probably could copy text from related Method sections and modify it as needed. In a serial report of several experiments, the Method and Results of experiments that follow from previous ones are often streamlined by referring back to the first. This is fine for a manuscript intended for publication; in fact, you want to aim for brevity when possible.
 

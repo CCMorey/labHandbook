@@ -25,7 +25,7 @@ A template consent form is available in the shared lab OneDrive folder, in direc
 
 ### Anonymity
 
-Be sure to read the section in this manual about Data Security for a full description of university and lab policy on protecting participants' privacy. The short version is that we do not save "personal" or "identifiable" data, usually at all, and never with the experimental data. It is our responsibility to ensure that we do not save details that could render our data identifiable unless it is absolutely essential, and when we do, that we use a procedure that makes it easy to sever any link between the experimental ids and real-life ids. We apply this procedure as soon as possible, and once it is applied, we can no longer tell which data came from which person. Signed consent forms must be saved for 7 years. The consent forms we save should therefore *never* include the arbitrary id assigned to the participant's data. See also our procedures for [identifiers](#identifiers-and-data). 
+Be sure to read the section in this manual about Data Security for a full description of university and lab policy on protecting participants' privacy. The short version is that we do not save "personal" or "identifiable" data, usually at all, and never with the experimental data. It is our responsibility to ensure that we do not save details that could render our data identifiable unless it is absolutely essential, and when we do, that we use a procedure that makes it easy to sever any link between the experimental ids and real-life ids. We apply this procedure as soon as possible, and once it is applied, we can no longer tell which data came from which person. Signed consent forms must be saved for 7 years. The consent forms we save should therefore *never* include the arbitrary id assigned to the participant's data. 
 
 ### Educational debriefing
 
@@ -39,7 +39,7 @@ Individual researchers will not typically need to acquire ethics approval indepe
 
 2. Consent includes explicit acknowledgement that anonymized data may be shared online.
 
-3. Arbitrary [participant ids](#identifiers-and-data) are never associated with participant's signed consent form.
+3. Arbitrary [participant ids](#assigning-participant-identifiers) are never associated with participant's signed consent form.
 
 4. Any document that links personal ids with arbitrary ids must is treated as **confidential**. It cannot be accessible (in digital or print form) to anyone unnamed on the ethics application. It must be possible to destroy once the links are no longer needed. Once that destruction occurs, it must be truly impossible to re-forge the links. There cannot be a back-up way to reconstruct these links from any recorded data we preserve.
 
@@ -55,7 +55,7 @@ Never re-use a participant number in the same project. Even if you know data wil
 
 Always use the same participant number for the same person (e.g., if you are collecting data at multiple time points from the same person).
 
-*Vignette:* An ambitious MSc project involved collecting data from participants in two sessions. Participants ran two sessions each, performing two of the combinations in each session. Eventually though, all of these data needed to be analyzed together. (After all, that is the advantage of going to the effort to get the same data in each participant -  you get to do a within-participant analysis.) The student ran each session with a unique identifier. This certainly prevented any data from being accidentally overwritten, but it meant that when it was time to analyze the data, we needed a way to code which ids were actually the same people. There is no elegant way to do this, because there was no regularity between the ids to exploit (coding requires regular expressions). Below is the code we used to assign new participant ids to both of the data sets from each participant.  
+*Vignette:* An ambitious MSc project involved collecting data from participants in two sessions. Participants ran two sessions each, performing two of the four conditions in each session. Eventually though, all of these data needed to be analyzed together. (After all, that is the advantage of going to the effort to get the same data in each participant -  you get to do a within-participant analysis.) The student ran each session with a unique identifier. This certainly prevented any data from being accidentally overwritten, but it meant that when it was time to analyze the data, we needed a way to code which ids were actually the same people. There is no elegant way to do this, because there was no regularity between the ids to exploit (coding requires regularity to exploit). Below is the code we used to assign new participant ids to both of the data sets from each participant.  
 
 ```{r, eval=F}
 
@@ -163,4 +163,4 @@ A new risk assessment will be due prior to the expiration of the project.
 
 This is a generic approval valid until 30 September 2023. This heading covers behavioural studies with adults and children, eye-tracking, and multi-session data collection. Examples of studies under this heading include manipulations of complex span tasks and the Flavell et al Registered Replication Report.
 
-A new rish assessment will be due prior to the expiration of the project.
+A new risk assessment will be due prior to the expiration of the project.

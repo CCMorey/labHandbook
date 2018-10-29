@@ -9,7 +9,7 @@ Every other Monday (beginning 15 October 2018), 16:10-17:30, 7.10 Tower. Lab mee
 ## Standing agenda
 
 1. Logistics: Is anything broken? Are there scheduling conflicts/difficulties? Programs to troubleshoot?
-2. Progress report: PI will ask a selection of members for a progress report
+2. Progress report: PI will ask a selection of members for a progress report. In semester 1, these are typically to guide UG project students as they begin their projects.
 3. OSF Review: We'll check whether any milestones have been reached lately
 4. Research content (ordered by priority; we won't do all things every meeting): Lab members starting a new study will give their elevator speech and demo their program, lab members with new data will describe it for us (must have a graph!), we will discuss a relevant research paper
 
@@ -19,7 +19,7 @@ You may wonder why we do this. One reason is that it is an efficient way for the
 
 Another reason is that it is unhealthy for researchers to struggle alone with difficulties. We prioritize trouble-shooting in lab meetings so that anyone experiencing a problem has a regular opportunity to talk about it with a supportive group of people. It is also useful for others to hear about these problems even if they are not directly affected because 1) it normalizes the fact that everyone struggles with logisitics and programming sometimes, 2) the same problem may impact you eventually, and by attending to others' concerns in lab meeting, you will at least be familiar with it. 
 
-We also need a regular moment to mark the interim successes that occur during research projects that don't merit wide attention. Finishing a pilot-testing, submitting a conference presentation, finding something interesting in an analysis are all moments that call for some celebration, but will only be interesting to like-minded geeks. 
+We also need a regular moment to mark the interim successes that occur during research projects that don't merit wide attention. Finishing up pilot-testing, submitting a conference presentation, finding something interesting in an analysis are all moments that call for some celebration, but will only be interesting to like-minded geeks. 
 
 Finally, you may not yet personally see how another lab member's work relates to your's, but it does. Hearing about this work and reading papers together builds our common knowledge space and affords opportunities for generating new ideas. I hope these meetings will always be interesting. Inevitably they will sometimes be boring. But please make the effort to attend and participate. Though you may sometimes not see the immediate gain, you never know when our meetings bring some opportunity for you to improve your project or contribute to someone else's.
 
