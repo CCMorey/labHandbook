@@ -36,7 +36,7 @@ We want to always faciliate efficient use of the space. Please consider the foll
 
 ### Peak usage
 
-The lab will be busiest during term times. That's mid October until mid December, mid-January until Easter break, during the regular work day (e.g., 9:30 - 16:30). Whenever possible, do not plan on having access to the lab for programming during peak times. During peak times, the best times to use the lab for preparing a protocol, installing programs, or retrieving data are early in the morning (e.g., before 9:30) and during times when both Year 1s and Year 2s have lectures. For Autumn 2018, that's Thursdays and Fridays from 10:00-11:00.
+The lab will be busiest during term times. That's mid October until mid December, mid-January until Easter break, during the regular work day (e.g., 9:30 - 16:30). Whenever possible, do not plan on having access to the lab for programming during peak times. During peak times, the best times to use the lab for preparing a protocol, installing programs, or retrieving data are early in the morning (e.g., before 9:30) and during times when both Year 1s and Year 2s have lectures. For Autumn 2018, that's Thursdays and Fridays from 10:00-11:00. For Winter 2019, there is no overlap in their timetables.
 
 ### Storage
 
