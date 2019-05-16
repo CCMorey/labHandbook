@@ -1,10 +1,12 @@
-# Lab meetings
+# Lab meetings and communication
 
 Every two weeks (unless there's something unusual going on), our whole group shall meet to discuss our ongoing work, progress, plans, logistics, etc. The content of each meeting will be arranged and communicated ahead of time. All lab members are expected to attend lab meeting if at all possible. Lab members should avoid scheduling anything during lab meeting time.
 
 ## Time and place
 
-Every other Monday (beginning 15 October 2018), 16:10-17:30, 7.10 Tower. Lab meetings will definitely occur during term time. They may occur during some term breaks depending on who all is working across the break. 
+During the summer period, we will usually meet Thursdays, 15:15-16:45, 7.10 Tower (unless otherwise noted), beginning 30 May.
+
+Lab meetings will definitely occur during regular term time. They may occur during some term breaks depending on who all is working across the break. 
 
 ## Standing agenda
 
@@ -12,6 +14,19 @@ Every other Monday (beginning 15 October 2018), 16:10-17:30, 7.10 Tower. Lab mee
 2. Progress report: PI will ask a selection of members for a progress report. In semester 1, these are typically to guide UG project students as they begin their projects.
 3. OSF Review: We'll check whether any milestones have been reached lately
 4. Research content (ordered by priority; we won't do all things every meeting): Lab members starting a new study will give their elevator speech and demo their program, lab members with new data will describe it for us (must have a graph!), we will discuss a relevant research paper
+
+## Upcoming content
+
+Thursday 30 May: Tanya Joseph will present a summary of her work on how memory load affects processing in complex span. We will be following up on this work May-July. See Slack for background reading.
+
+Thursday 13 June: Candice Morey will give a presentation about visual working memory as practice for an upcoming presentation at the KNAW in Amsterdam. See Slack for background reading.
+
+Thursday 20 June: We will read and discuss something to prepare for Nelson Cowan's upcoming visit. See Slack for reading.
+
+Friday 5 July: Nelson Cowan speaks at the School colloquium series, 14:00, Tower 12.11. We may also meet with Nelson earlier that day (time TBA) to give him a summary of what we are working on.
+
+Thursdays 11, 18, 25 July: Plan to meet, but we don't have an agenda yet.
+
 
 ## What's in it for everyone
 
@@ -27,3 +42,8 @@ Finally, you may not yet personally see how another lab member's work relates to
 
 Sub-groups of us shall sometimes meet for specific business that doesn't involve the whole lab. For instance, many lab members are students, and students may have contact hours with the PI related to their course that non-student lab members won't attend. The personnel involved in particular projects will convene *Data Round-up Meetings*, in which we compile, anonymize, exclude ineligible participants from a data set, and securely back-up the data ahead of the analysis.  
 
+## Communication between meetings
+
+Questions are bound to arise in between these formal opportunities to meet. One way to get resolution between meetings is to consult our lab's Slack channel. Slack is a group chat system that we use to replace personal email when possible. There is a general channel that all lab personnel should be able to access, and sub-channels specific to individual projects. In Slack, you can see the previous communications, so you can check if the information you need is already documented there. If not, you can submit your query to whichever channel seems most appropriate. If you need a fast reply from a specific lab member, you can @ them and cause a notification to be sent to them that their opinion is required.
+
+Whenever you have a question that could be answered by one of several people, or if there are several people that probably need to know the answer, you should pose it on Slack rather than over email. Like with your email, you can tell Slack when to allow notifications to reach you so that you are not disturbed when you are not working.
