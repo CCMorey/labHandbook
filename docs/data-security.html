@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-<html >
-
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
 <head>
 
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapter 10 Data security | Lab Handbook</title>
-  <meta name="description" content="My aim with this document is to coordinate the researchers working with me so that the output from their projects is compatible, and so that every new student who joins my lab, however temporary, can find what they need to efficiently carry out their work.">
-  <meta name="generator" content="bookdown  and GitBook 2.6.7">
+  <meta name="description" content="My aim with this document is to coordinate the researchers working with me so that the output from their projects is compatible, and so that every new student who joins my lab, however temporary, can find what they need to efficiently carry out their work." />
+  <meta name="generator" content="bookdown 0.14 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapter 10 Data security | Lab Handbook" />
   <meta property="og:type" content="book" />
@@ -22,18 +21,18 @@
   <meta name="twitter:description" content="My aim with this document is to coordinate the researchers working with me so that the output from their projects is compatible, and so that every new student who joins my lab, however temporary, can find what they need to efficiently carry out their work." />
   
 
-<meta name="author" content="Candice Morey">
+<meta name="author" content="Candice Morey" />
 
 
-<meta name="date" content="2019-05-16">
+<meta name="date" content="2019-10-30" />
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="ethics-at-cardiff-school-of-psychology.html">
-<link rel="next" href="designing-your-study.html">
+<link rel="prev" href="ethics-at-cardiff-school-of-psychology.html"/>
+<link rel="next" href="designing-your-study.html"/>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -41,6 +40,9 @@
 <link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
 
 
 
@@ -51,41 +53,66 @@
 
 
 <style type="text/css">
-div.sourceCode { overflow-x: auto; }
-table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
-  margin: 0; padding: 0; vertical-align: baseline; border: none; }
-table.sourceCode { width: 100%; line-height: 100%; }
-td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
-td.sourceCode { padding-left: 5px; }
-code > span.kw { color: #007020; font-weight: bold; } /* Keyword */
-code > span.dt { color: #902000; } /* DataType */
-code > span.dv { color: #40a070; } /* DecVal */
-code > span.bn { color: #40a070; } /* BaseN */
-code > span.fl { color: #40a070; } /* Float */
-code > span.ch { color: #4070a0; } /* Char */
-code > span.st { color: #4070a0; } /* String */
-code > span.co { color: #60a0b0; font-style: italic; } /* Comment */
-code > span.ot { color: #007020; } /* Other */
-code > span.al { color: #ff0000; font-weight: bold; } /* Alert */
-code > span.fu { color: #06287e; } /* Function */
-code > span.er { color: #ff0000; font-weight: bold; } /* Error */
-code > span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
-code > span.cn { color: #880000; } /* Constant */
-code > span.sc { color: #4070a0; } /* SpecialChar */
-code > span.vs { color: #4070a0; } /* VerbatimString */
-code > span.ss { color: #bb6688; } /* SpecialString */
-code > span.im { } /* Import */
-code > span.va { color: #19177c; } /* Variable */
-code > span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
-code > span.op { color: #666666; } /* Operator */
-code > span.bu { } /* BuiltIn */
-code > span.ex { } /* Extension */
-code > span.pp { color: #bc7a00; } /* Preprocessor */
-code > span.at { color: #7d9029; } /* Attribute */
-code > span.do { color: #ba2121; font-style: italic; } /* Documentation */
-code > span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
-code > span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
-code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+a.sourceLine { display: inline-block; line-height: 1.25; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+a.sourceLine:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
+}
+pre.numberSource a.sourceLine
+  { position: relative; left: -4em; }
+pre.numberSource a.sourceLine::before
+  { content: attr(data-line-number);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; pointer-events: all; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {  }
+@media screen {
+a.sourceLine::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
@@ -133,7 +160,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li class="chapter" data-level="3" data-path="lab-meetings-and-communication.html"><a href="lab-meetings-and-communication.html"><i class="fa fa-check"></i><b>3</b> Lab meetings and communication</a><ul>
 <li class="chapter" data-level="3.1" data-path="lab-meetings-and-communication.html"><a href="lab-meetings-and-communication.html#time-and-place"><i class="fa fa-check"></i><b>3.1</b> Time and place</a></li>
 <li class="chapter" data-level="3.2" data-path="lab-meetings-and-communication.html"><a href="lab-meetings-and-communication.html#standing-agenda"><i class="fa fa-check"></i><b>3.2</b> Standing agenda</a></li>
-<li class="chapter" data-level="3.3" data-path="lab-meetings-and-communication.html"><a href="lab-meetings-and-communication.html#upcoming-content"><i class="fa fa-check"></i><b>3.3</b> Upcoming content</a></li>
+<li class="chapter" data-level="3.3" data-path="lab-meetings-and-communication.html"><a href="lab-meetings-and-communication.html#upcoming-dates-and-extra-content"><i class="fa fa-check"></i><b>3.3</b> Upcoming dates and extra content</a></li>
 <li class="chapter" data-level="3.4" data-path="lab-meetings-and-communication.html"><a href="lab-meetings-and-communication.html#whats-in-it-for-everyone"><i class="fa fa-check"></i><b>3.4</b> What’s in it for everyone</a></li>
 <li class="chapter" data-level="3.5" data-path="lab-meetings-and-communication.html"><a href="lab-meetings-and-communication.html#project-specific-meetings"><i class="fa fa-check"></i><b>3.5</b> Project-specific meetings</a></li>
 <li class="chapter" data-level="3.6" data-path="lab-meetings-and-communication.html"><a href="lab-meetings-and-communication.html#communication-between-meetings"><i class="fa fa-check"></i><b>3.6</b> Communication between meetings</a></li>
@@ -203,15 +230,8 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="9" data-path="ethics-at-cardiff-school-of-psychology.html"><a href="ethics-at-cardiff-school-of-psychology.html"><i class="fa fa-check"></i><b>9</b> Ethics at Cardiff School of Psychology</a><ul>
-<li class="chapter" data-level="9.1" data-path="ethics-at-cardiff-school-of-psychology.html"><a href="ethics-at-cardiff-school-of-psychology.html#who-needs-to-apply"><i class="fa fa-check"></i><b>9.1</b> Who needs to apply?</a></li>
-<li class="chapter" data-level="9.2" data-path="ethics-at-cardiff-school-of-psychology.html"><a href="ethics-at-cardiff-school-of-psychology.html#how-to-apply-for-ethical-review"><i class="fa fa-check"></i><b>9.2</b> How to apply for ethical review?</a><ul>
-<li class="chapter" data-level="9.2.1" data-path="ethics-at-cardiff-school-of-psychology.html"><a href="ethics-at-cardiff-school-of-psychology.html#types-of-applications"><i class="fa fa-check"></i><b>9.2.1</b> Types of applications</a></li>
-</ul></li>
-<li class="chapter" data-level="9.3" data-path="ethics-at-cardiff-school-of-psychology.html"><a href="ethics-at-cardiff-school-of-psychology.html#what-forms-will-i-need-to-complete"><i class="fa fa-check"></i><b>9.3</b> What forms will I need to complete?</a><ul>
-<li class="chapter" data-level="9.3.1" data-path="ethics-at-cardiff-school-of-psychology.html"><a href="ethics-at-cardiff-school-of-psychology.html#ethics-proforma"><i class="fa fa-check"></i><b>9.3.1</b> Ethics proforma</a></li>
-<li class="chapter" data-level="9.3.2" data-path="ethics-at-cardiff-school-of-psychology.html"><a href="ethics-at-cardiff-school-of-psychology.html#full-proposal"><i class="fa fa-check"></i><b>9.3.2</b> Full proposal</a></li>
-<li class="chapter" data-level="9.3.3" data-path="ethics-at-cardiff-school-of-psychology.html"><a href="ethics-at-cardiff-school-of-psychology.html#risk-assessment"><i class="fa fa-check"></i><b>9.3.3</b> Risk assessment</a></li>
-</ul></li>
+<li class="chapter" data-level="9.0.1" data-path="ethics-at-cardiff-school-of-psychology.html"><a href="ethics-at-cardiff-school-of-psychology.html#types-of-applications"><i class="fa fa-check"></i><b>9.0.1</b> Types of applications</a></li>
+<li class="chapter" data-level="9.0.2" data-path="ethics-at-cardiff-school-of-psychology.html"><a href="ethics-at-cardiff-school-of-psychology.html#ethics-proforma"><i class="fa fa-check"></i><b>9.0.2</b> Ethics proforma</a></li>
 </ul></li>
 <li class="chapter" data-level="10" data-path="data-security.html"><a href="data-security.html"><i class="fa fa-check"></i><b>10</b> Data security</a><ul>
 <li class="chapter" data-level="10.1" data-path="data-security.html"><a href="data-security.html#backing-up-digital-data"><i class="fa fa-check"></i><b>10.1</b> Backing up digital data</a><ul>
@@ -248,11 +268,24 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li class="chapter" data-level="12.2" data-path="experimental-protocols.html"><a href="experimental-protocols.html#testing-your-protocol"><i class="fa fa-check"></i><b>12.2</b> Testing your protocol</a></li>
 <li class="chapter" data-level="12.3" data-path="experimental-protocols.html"><a href="experimental-protocols.html#clearance-to-begin"><i class="fa fa-check"></i><b>12.3</b> Clearance to begin</a></li>
 </ul></li>
-<li class="chapter" data-level="13" data-path="dealing-with-the-unexpected-during-data-collection-with-adult-student-participants.html"><a href="dealing-with-the-unexpected-during-data-collection-with-adult-student-participants.html"><i class="fa fa-check"></i><b>13</b> Dealing with the unexpected during data collection with adult, student participants</a><ul>
-<li class="chapter" data-level="13.1" data-path="dealing-with-the-unexpected-during-data-collection-with-adult-student-participants.html"><a href="dealing-with-the-unexpected-during-data-collection-with-adult-student-participants.html#the-slow-participant"><i class="fa fa-check"></i><b>13.1</b> The slow participant</a></li>
-<li class="chapter" data-level="13.2" data-path="dealing-with-the-unexpected-during-data-collection-with-adult-student-participants.html"><a href="dealing-with-the-unexpected-during-data-collection-with-adult-student-participants.html#the-inattentive-participant"><i class="fa fa-check"></i><b>13.2</b> The inattentive participant</a></li>
-<li class="chapter" data-level="13.3" data-path="dealing-with-the-unexpected-during-data-collection-with-adult-student-participants.html"><a href="dealing-with-the-unexpected-during-data-collection-with-adult-student-participants.html#sleepy-sick-or-inebriated-participants"><i class="fa fa-check"></i><b>13.3</b> Sleepy, sick, or inebriated participants</a></li>
-<li class="chapter" data-level="13.4" data-path="dealing-with-the-unexpected-during-data-collection-with-adult-student-participants.html"><a href="dealing-with-the-unexpected-during-data-collection-with-adult-student-participants.html#the-participant-with-a-lot-of-questions"><i class="fa fa-check"></i><b>13.4</b> The participant with a lot of questions</a></li>
+<li class="chapter" data-level="13" data-path="recruiting-participants.html"><a href="recruiting-participants.html"><i class="fa fa-check"></i><b>13</b> Recruiting participants</a><ul>
+<li class="chapter" data-level="13.1" data-path="recruiting-participants.html"><a href="recruiting-participants.html#adults-from-the-university-community"><i class="fa fa-check"></i><b>13.1</b> Adults from the university community</a><ul>
+<li class="chapter" data-level="13.1.1" data-path="recruiting-participants.html"><a href="recruiting-participants.html#experiment-management-system-ems"><i class="fa fa-check"></i><b>13.1.1</b> Experiment Management System (EMS)</a></li>
+<li class="chapter" data-level="13.1.2" data-path="recruiting-participants.html"><a href="recruiting-participants.html#access-to-ems"><i class="fa fa-check"></i><b>13.1.2</b> Access to EMS</a></li>
+<li class="chapter" data-level="13.1.3" data-path="recruiting-participants.html"><a href="recruiting-participants.html#administering-an-experiment-on-ems"><i class="fa fa-check"></i><b>13.1.3</b> Administering an experiment on EMS</a></li>
+<li class="chapter" data-level="13.1.4" data-path="recruiting-participants.html"><a href="recruiting-participants.html#alternatives-to-ems"><i class="fa fa-check"></i><b>13.1.4</b> Alternatives to EMS</a></li>
+<li class="chapter" data-level="13.1.5" data-path="recruiting-participants.html"><a href="recruiting-participants.html#paying-participants"><i class="fa fa-check"></i><b>13.1.5</b> Paying participants</a></li>
+</ul></li>
+<li class="chapter" data-level="13.2" data-path="recruiting-participants.html"><a href="recruiting-participants.html#children-from-the-local-community"><i class="fa fa-check"></i><b>13.2</b> Children from the local community</a><ul>
+<li class="chapter" data-level="13.2.1" data-path="recruiting-participants.html"><a href="recruiting-participants.html#how-to-recruit-via-schools"><i class="fa fa-check"></i><b>13.2.1</b> How to recruit via schools</a></li>
+<li class="chapter" data-level="13.2.2" data-path="recruiting-participants.html"><a href="recruiting-participants.html#how-to-recruit-via-the-cuchds-database"><i class="fa fa-check"></i><b>13.2.2</b> How to recruit via the CUCHDS database</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="14" data-path="dealing-with-the-unexpected-during-data-collection.html"><a href="dealing-with-the-unexpected-during-data-collection.html"><i class="fa fa-check"></i><b>14</b> Dealing with the unexpected during data collection</a><ul>
+<li class="chapter" data-level="14.1" data-path="dealing-with-the-unexpected-during-data-collection.html"><a href="dealing-with-the-unexpected-during-data-collection.html#the-slow-participant"><i class="fa fa-check"></i><b>14.1</b> The slow participant</a></li>
+<li class="chapter" data-level="14.2" data-path="dealing-with-the-unexpected-during-data-collection.html"><a href="dealing-with-the-unexpected-during-data-collection.html#the-inattentive-participant"><i class="fa fa-check"></i><b>14.2</b> The inattentive participant</a></li>
+<li class="chapter" data-level="14.3" data-path="dealing-with-the-unexpected-during-data-collection.html"><a href="dealing-with-the-unexpected-during-data-collection.html#sleepy-sick-or-inebriated-participants"><i class="fa fa-check"></i><b>14.3</b> Sleepy, sick, or inebriated participants</a></li>
+<li class="chapter" data-level="14.4" data-path="dealing-with-the-unexpected-during-data-collection.html"><a href="dealing-with-the-unexpected-during-data-collection.html#the-participant-with-a-lot-of-questions"><i class="fa fa-check"></i><b>14.4</b> The participant with a lot of questions</a></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
 <li class="divider"></li>
@@ -279,7 +312,8 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <h1><span class="header-section-number">Chapter 10</span> Data security</h1>
 <p>Data security refers to the principles followed to protect our data. There are two sides to this: ensuring that our data are not lost and ensuring that aspects of our data that are personal are kept confidential.</p>
 <p>All lab personnel should complete the <a href="https://intranet.cardiff.ac.uk/staff/news/view/211993-information-security-training-when-will-you-complete-yours">web-based Data Security training module</a> offered by Cardiff University.</p>
-<p>The data we post publicly online should not afford discovery of participants’ identities. There nonetheless remains some information in the data file that interested parties could use in conjunction with other known information to identify a participant. Suppose you are a private investigator, and your client wants you to spy on her child at university. You know your mark is enrolled on the Psychology degree, and you find out that completing this degree involves participating in laboratory studies. You think these studies might be a source of key information about how well your mark can remember abstract visual images, so you follow him to the laboratory, noting the date and time he participated. Once the data are posted online, you can download them and find the participant whose data were recorded on that date and time, even if no other information in the data uniquely identifies your mark. Knowing what we know about the distortibility of data, we can take those visual recognition task data and dubiously infer all sorts of maliciousness.</p>
+<p>The data we post publicly online should not afford discovery of participants’ identities.
+There nonetheless remains some information in the data file that interested parties could use in conjunction with other known information to identify a participant. Suppose you are a private investigator, and your client wants you to spy on her child at university. You know your mark is enrolled on the Psychology degree, and you find out that completing this degree involves participating in laboratory studies. You think these studies might be a source of key information about how well your mark can remember abstract visual images, so you follow him to the laboratory, noting the date and time he participated. Once the data are posted online, you can download them and find the participant whose data were recorded on that date and time, even if no other information in the data uniquely identifies your mark. Knowing what we know about the distortibility of data, we can take those visual recognition task data and dubiously infer all sorts of maliciousness.</p>
 <p>This is obviously ridiculous, but technically possible. It is referred to as the <em>motivated intruder test</em>, and we cannot consider our data truly anonymous if a motivated intruder could easily uncover and exploit the indirect links between anonymous data and identifiable information we may have access to. To comply with EU privacy regulations, we need to take steps to protect participant identities even when we think our data are harmless. This holds regardless of whether we plan to make the anonymous data set publicly available. Unless you are storing the data only on secured Cardiff University resources, it must be properly anonymized. This means that before we anonymize it, data cannot be held even temporarily on personal disks, on DropBox, or Google Docs, and cannot be emailed to non-university email addresses.</p>
 <div id="backing-up-digital-data" class="section level2">
 <h2><span class="header-section-number">10.1</span> Backing up digital data</h2>
@@ -295,25 +329,25 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <p>Everyone involved in data collection should attend the <strong>Data Round-up Meeting</strong>, because we will at the same time make decisions about participant exclusions. Everyone who collected data should bring their lab notebook. If a face-to-face meeting including all personnel is impossible, data collectors should at least make their lab notebook available to the PI for this meeting, and have prepared a summary of which participants they think must be left out and why.</p>
 <p>First, the team shall compile the data associated with the project from the <em>labBackUp_cmorey</em> folder. It is essential that this folder is up-to-date ahead of the meeting - data collectors, please ensure that you have copied all data to the back up ahead of time.</p>
 <p>At the meeting, we will use this code to compile each individual backed-up data file into a single data frame, <em>d</em>:</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">d =<span class="st"> </span><span class="kw">map_df</span>(<span class="kw">list.files</span>(<span class="dt">path =</span> <span class="st">&quot;&quot;</span>, <span class="dt">full.names =</span> <span class="ot">TRUE</span>), 
-                 read_csv, <span class="dt">col_names =</span> T)</code></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb2-1" data-line-number="1">d =<span class="st"> </span><span class="kw">map_df</span>(<span class="kw">list.files</span>(<span class="dt">path =</span> <span class="st">&quot;&quot;</span>, <span class="dt">full.names =</span> <span class="ot">TRUE</span>), </a>
+<a class="sourceLine" id="cb2-2" data-line-number="2">                 read_csv, <span class="dt">col_names =</span> T)</a></code></pre></div>
 <p>This code creates a dataframe called <em>d</em> that includes all the .csv files in the project directory, which will be entered into the <em>path</em> argument.</p>
 <p>We shall then examine <em>d</em>’s headings for information that could identify the participant. Anything that has to do with the date and time of the session must be omitted. Recorded birthdates must be omitted. Usually, we would not have recorded anything more personal than that, but if so, it must be omitted at this stage.</p>
 <p>Obviously, we do need the participants’ ages to describe our sample. We can calculate that. First, it is a good idea to first look at the entries for any year-of-birth or birthdate variable to make sure they are plausible.</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">unique</span>(d<span class="op">$</span>YoB)</code></pre></div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb3-1" data-line-number="1"><span class="kw">unique</span>(d<span class="op">$</span>YoB)</a></code></pre></div>
 <p>This code will produce a list of each unique value at YoB in the data frame. Check that they all seem plausible. If they are not, consider whether a weird value might have been a typo by figuring out who interacted with that participant and consulting the relevant notebook. The people in the room must reach an agreement on what to do in the event of a weird value. Options include: considering the age missing for that participant, omitting the participant if they fall outside the recruited age range, judging that a transposition was entered (e.g., entering a YoB of 2020 rather than 2002 was an error because the participant was definitely an adult, or that a 2-digit value like 98 actually meant 1998). In cases where the typo seems obvious, we can decide to fix it, but this must be documented in the script.</p>
 <p>If we recorded <em>Year of Birth</em>, we can now create a new variable converting birth year to age at the time of the study. For most purposes, this does not need to be very precise. We can do this with a simple <em>mutate</em>.</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">d =<span class="st"> </span>d <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">mutate</span>(<span class="dt">age =</span> <span class="dv">2018</span> <span class="op">-</span><span class="st"> </span>YoB) <span class="co"># current year - column name containing the birth year</span></code></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb4-1" data-line-number="1">d =<span class="st"> </span>d <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">mutate</span>(<span class="dt">age =</span> <span class="dv">2018</span> <span class="op">-</span><span class="st"> </span>YoB) <span class="co"># current year - column name containing the birth year</span></a></code></pre></div>
 <p>If we recorded the full birthdate, we probably need age in more precision. The function <em>lubridate</em> is useful for sorting out birthdates and calculating precise ages from birthdates and run dates.</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span> (lubridate)
-<span class="co"># lubridate example here</span></code></pre></div>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb5-1" data-line-number="1"><span class="kw">library</span> (lubridate)</a>
+<a class="sourceLine" id="cb5-2" data-line-number="2"><span class="co"># lubridate example here</span></a></code></pre></div>
 <p>Once we have created whatever new, anonymous variables we need from the potentially identifying data, we can create a new data set with the identifiable data omitted. We would do that with script like this:</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># Remove columns that contain ids or timestamps (times could limit the pool to specific people given that the location of the test is known)</span>
-symsp =<span class="st"> </span>symsp <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">select</span>(<span class="op">-</span><span class="kw">c</span>(Clock.Information, Email, SessionDate, SessionTime)) <span class="co"># The &quot;-&quot; negates the select, meaning that everything *except* the named columns remain.</span></code></pre></div>
+<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb6-1" data-line-number="1"><span class="co"># Remove columns that contain ids or timestamps (times could limit the pool to specific people given that the location of the test is known)</span></a>
+<a class="sourceLine" id="cb6-2" data-line-number="2">symsp =<span class="st"> </span>symsp <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">select</span>(<span class="op">-</span><span class="kw">c</span>(Clock.Information, Email, SessionDate, SessionTime)) <span class="co"># The &quot;-&quot; negates the select, meaning that everything *except* the named columns remain.</span></a></code></pre></div>
 <p>Include all the variables you want to omit within the -c() list. The resulting data frame will include everything except those variables. View the resulting data frame to check that this indeed worked.</p>
 <p>This new data frame is the one we will analyze. Save it now to the PI’s local directory, and also upload it to the OSF page for this project so all of the lab personnel who need to use it can access it.</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># Save it - this is the version that goes on OSF</span>
-<span class="kw">write_csv</span>(symsp, <span class="st">&quot;symSpan_RuG_anon.csv&quot;</span>)</code></pre></div>
+<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb7-1" data-line-number="1"><span class="co"># Save it - this is the version that goes on OSF</span></a>
+<a class="sourceLine" id="cb7-2" data-line-number="2"><span class="kw">write_csv</span>(symsp, <span class="st">&quot;symSpan_RuG_anon.csv&quot;</span>)</a></code></pre></div>
 <p>We may occasionally need the identifiable data, particularly the timestamps in it. If we need to prove that the data were collected after a certain date, these timestamps are strong evidence. But the original data need to be kept only in a secure place that is never accessible publicly and that is regularly automatically backed up. Currently the only available spaces that meet this requirement are the Shared and Home drives. Our policy: the compiled, non-anonymized data are stored on Candice Morey’s Home drive. She will store the script we write to anonymize the data and the original data on a sub-directory of My Documents/dataSets_cardiff on her Home Drive.</p>
 </div>
 <div id="cleaning-up-lab-directories" class="section level3">
@@ -360,11 +394,13 @@ symsp =<span class="st"> </span>symsp <span class="op">%&gt;%</span><span class=
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
 <script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
 <script>
 gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({

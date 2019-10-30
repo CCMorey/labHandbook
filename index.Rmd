@@ -79,21 +79,29 @@ No one can accomplish the work we are striving to do alone. By joining this lab,
 
 Dr. Candice Coker Morey, Principal Investigator
 
-Dr. Tanya Joseph, Post-doctoral Research Assistant
-
-Ralitsa Kostova, Research Assistant
-
 
 ### PGRs
 
-Teodor Nikolov (starting October 2019)
+Teodor Nikolov
 
-Aoife O'Mahony (co-supervised with Prof. Chris Chambers, starting October 2019)
+Aoife O'Mahony (co-supervised with Prof. Chris Chambers)
+
+Clara Overkott (visiting PhD researcher from the University of Zurich)
+
+Kelsey Jones
+
 
 ### UGRs
 
-April Carne
+Aimee Elliott
 
+Jenny Graham
+
+George Metaxa
+
+Ceri O'Connell
+
+Milly Roberts
 
 ## School of Psychology staff who support us
 
@@ -101,12 +109,14 @@ April Carne
 
 * Research administrators (psych-research-admin@cardiff.ac.uk) help with putting together and submitting grant applications.
 
-* Open Access adminstrators need to know when a paper has been accepted for publication, and can help facilitate making it OA and paying OA journal fees (Lisa Kennedy, Psych-OpenAccess@cardiff.ac.uk)
+* Open Access adminstrators need to know when a paper has been accepted for publication, and can help facilitate making it OA and paying OA journal fees (Psych-OpenAccess@cardiff.ac.uk)
 
 * Open Science Working Group (OSWG; Candice Morey and Chris Chambers, Chairs) offers advice on working transparently and shapes the School of Psychology's policy on research transparency
 
 
 ## Local collabortors and academics interested in memory or related things
+
+[Prof. Chris Chambers](https://www.cardiff.ac.uk/people/view/133632-chambers-chris)
 
 [Prof. Dylan Jones](http://psych.cf.ac.uk/contactsandpeople/jonesdm.php)
 
@@ -143,7 +153,7 @@ April Carne
 
 [Dr. Naomi Langerock, University of Geneva](https://www.unige.ch/fapse/decopsy/group/patrick/)
 
-[Dr. Stephen Rhodes, University of Missouri](https://psychology.missouri.edu/people/rhodes)
+[Dr. Stephen Rhodes, Rothman Research Institute, University of Toronto](http://stephenrho.github.io)
 
 [Dr. Evie Vergauwe, University of Geneva](https://www.unige.ch/fapse/decopsy/group/evie/)
 
@@ -152,12 +162,14 @@ April Carne
 
 ## External PGRs
 
-Erminia Fiorentino, University of Edinburgh
-
 Anthea Allan, Queen Margaret University
 
 
 ## Alumni
+
+Dr. Tanya Joseph (PDRA)
+
+Ralitsa Kostova (RA)
 
 Dr Jason Doherty (PGR co-supervisee, University of Edinburgh)
 
@@ -170,6 +182,8 @@ Dr. Edyta Sasin (PGR co-supervisee, Rijksuniversiteit Groningen)
 Dr. Florian Sense (PGR co-supervisee & UGR project, Rijksuniversiteit Groningen)
 
 Anthea Allan (MSc project, University of Edinburgh)
+
+Erminia Fiorentino (PGR co-supervisee, University of Edinburgh)
 
 Margot Holweg (MSc project, Rijksuniversiteit Groningen)
 
@@ -205,7 +219,11 @@ Dr. Malte Bieler (UGR project, Rijksuniversiteit Groningen)
 
 Rieke Buggenthin (UGR project, Rijksuniversiteit Gronginen)
 
+April Carne (CUROP intern, Cardiff University)
+
 Emily Charnaud (UGR project, Cardiff University)
+
+Emma Chubb (UG intern, Cardiff University)
 
 Yongqui Cong (UGR project, Rijksuniversiteit Groningen)
 
@@ -248,6 +266,8 @@ Lee Robson (UGR project, University of Edinburgh)
 Gintare Siugzdinyte (UGR project, University of Edinburgh)
 
 Teddy Spassova (UGR project, University of Edinburgh)
+
+Antonia Südkamper (UGR, Rijksuniversiteit Groningen)
 
 Dr. Michael J. Wolff (UGR project, Rijksuniversiteit Groningen)
 

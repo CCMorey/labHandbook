@@ -1,5 +1,5 @@
 
-# Dealing with the unexpected during data collection with adult, student participants
+# Dealing with the unexpected during data collection
 
 We design experimental materials to be easily administered and as fail-safe as possible. However, that doesn't mean that nothing can go wrong during your data collection. Here is a description of how participant running usually goes, and then anecdotal exceptions that have occurred to us more than once.
 
