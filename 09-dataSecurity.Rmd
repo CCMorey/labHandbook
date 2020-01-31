@@ -18,77 +18,12 @@ All lab personnel will be given access to a OneDrive folder "labBackUp_cmorey". 
 
 Note that here it will be necessary to make sure that your experimental directory has a unique name. The short-hand name you use for your project can be used for this. Do not choose names like "project", "dissertation", "thesis", "experiment 1". 
 
-These data are *confidential* because they include timestamps that, if linked to the participant's EMS schedule or to information the participant discloses publicly about their participation in experiments, their identity could be reconstructed. As such, you should not save these data onto personal computers or drives. 
+These data are *confidential* because they include timestamps that, if linked to the participant's EMS schedule or to information the participant discloses publicly about their participation in experiments, their identity could be reconstructed. You should not save these data onto portable drives - they are not secure enough. They should be saved only on the *labBackUp_cmorey* OneDrive, to the lab computers which sit in a secured location, or to password-protected computers associated with Cardiff University. 
 
 ### When data collection is closed
 
 Once we have decided not to collect any more data on a project, it is time to compile and anonymize that data set. This should always occur before any analyses are attempted, and must always be done in a scripted fashion. For lab members not fluent in scripting, this should be done in a face-to-face meeting with the PI or another senior lab member. This is the **Data Round-up Meeting**. 
 
-Everyone involved in data collection should attend the **Data Round-up Meeting**, because we will at the same time make decisions about participant exclusions. Everyone who collected data should bring their lab notebook. If a face-to-face meeting including all personnel is impossible, data collectors should at least make their lab notebook available to the PI for this meeting, and have prepared a summary of which participants they think must be left out and why. 
-
-First, the team shall compile the data associated with the project from the *labBackUp_cmorey* folder. It is essential that this folder is up-to-date ahead of the meeting - data collectors, please ensure that you have copied all data to the back up ahead of time. 
-
-At the meeting, we will use this code to compile each individual backed-up data file into a single data frame, *d*:
-
-```{r, eval=F}
-
-d = map_df(list.files(path = "", full.names = TRUE), 
-                 read_csv, col_names = T)
-
-```
-
-This code creates a dataframe called *d* that includes all the .csv files in the project directory, which will be entered into the *path* argument.
-
-We shall then examine *d*'s headings for information that could identify the participant. Anything that has to do with the date and time of the session must be omitted. Recorded birthdates must be omitted. Usually, we would not have recorded anything more personal than that, but if so, it must be omitted at this stage.
-
-Obviously, we do need the participants' ages to describe our sample. We can calculate that. First, it is a good idea to first look at the entries for any year-of-birth or birthdate variable to make sure they are plausible.
-
-```{r, eval=F}
-
-unique(d$YoB)
-
-```
-
-This code will produce a list of each unique value at YoB in the data frame. Check that they all seem plausible. If they are not, consider whether a weird value might have been a typo by figuring out who interacted with that participant and consulting the relevant notebook. The people in the room must reach an agreement on what to do in the event of a weird value. Options include: considering the age missing for that participant, omitting the participant if they fall outside the recruited age range, judging that a transposition was entered (e.g., entering a YoB of 2020 rather than 2002 was an error because the participant was definitely an adult, or that a 2-digit value like 98 actually meant 1998). In cases where the typo seems obvious, we can decide to fix it, but this must be documented in the script.
-
-If we recorded *Year of Birth*, we can now create a new variable converting birth year to age at the time of the study. For most purposes, this does not need to be very precise. We can do this with a simple *mutate*.
-
-```{r, eval=F}
-
-d = d %>% mutate(age = 2018 - YoB) # current year - column name containing the birth year
-
-```
-
-If we recorded the full birthdate, we probably need age in more precision. The function *lubridate* is useful for sorting out birthdates and calculating precise ages from birthdates and run dates. 
-
-```{r, eval=F}
-
-library (lubridate)
-# lubridate example here
-
-```
-
-Once we have created whatever new, anonymous variables we need from the potentially identifying data, we can create a new data set with the identifiable data omitted. We would do that with script like this:
-
-```{r, eval=F}
-
-# Remove columns that contain ids or timestamps (times could limit the pool to specific people given that the location of the test is known)
-symsp = symsp %>% select(-c(Clock.Information, Email, SessionDate, SessionTime)) # The "-" negates the select, meaning that everything *except* the named columns remain.
-
-```
-
-Include all the variables you want to omit within the -c() list. The resulting data frame will include everything except those variables. View the resulting data frame to check that this indeed worked.
-
-This new data frame is the one we will analyze. Save it now to the PI's local directory, and also upload it to the OSF page for this project so all of the lab personnel who need to use it can access it. 
-
-```{r, eval=F}
-
-# Save it - this is the version that goes on OSF
-write_csv(symsp, "symSpan_RuG_anon.csv")
-
-```
-
-We may occasionally need the identifiable data, particularly the timestamps in it. If we need to prove that the data were collected after a certain date, these timestamps are strong evidence. But the original data need to be kept only in a secure place that is never accessible publicly and that is regularly automatically backed up. Currently the only available spaces that meet this requirement are the Shared and Home drives. Our policy: the compiled, non-anonymized data are stored on Candice Morey's Home drive. She will store the script we write to anonymize the data and the original data on a sub-directory of My Documents/dataSets_cardiff on her Home Drive. 
 
 ### Cleaning up lab directories
 

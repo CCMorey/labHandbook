@@ -48,7 +48,7 @@ Regardless of how you are recruiting children, you will first need to acquire a 
 
 ### How to recruit via schools
 
-It is necessary to first make contact with the head teacher (or sometimes a designated community liaison) of a school and explain 1) what your study entails for the participants, and 2) what we anticipate learning from it. The head teacher can authorize us to send consent forms for parents home with children, and make a quiet place in the school available for testing. 
+It is necessary to first make contact with the head teacher (or sometimes a designated community liaison) of a school and explain 1) what your study entails for the participants, and 2) what we anticipate learning from it. The head teacher can authorize us to send consent forms for parents home with children, and make a quiet place in the school available for testing. In the first instance, contact head teachers via email to the school's general account or via hand-written note, sent in the mail. Start this process as far ahead of testing as you can; it can take a while for interested schools to make contact with you.  
 
 Head teachers are extremely busy - we cannot expect that assisting us with research is their top priority. We must make ourselves available on their timetable and respect the limits (in terms of time in the school, etc.) they are comfortable making available to us. Note that our ethics approval *requires* explicit, opt-in consent from parents, so the first step is always to send forms home explaining what we are doing and why we think it will be beneficial. We can only test children for whom we receive completed, signed parental consent forms.
 
@@ -58,11 +58,18 @@ There is a record of contacts attempted with local schools maintained by CUCHDS.
 
 ### How to recruit via the CUCHDS database
 
-Often, it is necessary to test children in a controlled setting. We use the CUCHDS facilities for this. CUCHDS features several child-friendly testing spaces, including some equipped with EEG, fNIRS, and eye-tracking capabilites, bookable by personnel with access. (The PI can request access on your behalf.)
+Often, it is necessary to test children in a controlled setting. We use the CUCHDS facilities for this. CUCHDS features several child-friendly testing spaces, including some equipped with EEG, fNIRS, and eye-tracking capabilites, bookable by personnel with access. (The PI can request access on your behalf - this is done via Ali Roberts.)
 
 CUCHDS maintains a database of families who have indicated that they would like to take part in research projects (see TinyToTots). Access to this database is controlled by Dr. Ross Vanderwert. 
 
 When contacting participants, it is important to greet them personally. Do not send a bulk email to everyone in the database that meets your inclusion criteria. Send a personal message, offering a chance to participate. If the family has indicated a preferred means of contact other than email, use the preferred means instead. Include details about what the child would be doing, how long it will take, who is eligible, and general information about what we are studying.
+
+### Recruiting via social media
+
+Another way to recruit families is via social media. TinyToTots maintains a Facebook page, and can post a call for participants for a particular study opportunity. To make the most of this, you should create an image including the relevant details that can be posted to Facebook. Details should include what the participant will be doing, who is eligible, how long it will take, until when you are recruiting, and contact information. The flier should include a fun, colorful image to attract attention. The Facebook account is managed by Dr. Ross Vanderwert.
+
+The *Participate in research* Yammer channel may also yield some recruits. It is monitored by a lot of university staff, who actively participate themselves and might be open to bringing their family in for research opporuntities.
+
 
 
 
