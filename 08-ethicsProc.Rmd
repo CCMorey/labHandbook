@@ -2,13 +2,16 @@
 
 Ethical approval is an essential part of conducting research. At Cardiff University, each academic school has its own School Research Ethics committee (SREC) that is responsible for ensuring that all research carried out within the School has been subject to an ethical review.The university's procedure for ethical review allows staff and students to achieve research excellence and produce work with the highest standards of research integrity and professionalism.
 
-##Who needs to apply?##
+## Who needs to apply?
 Staff and students conducting research on humans must apply for ethical approval. In some cases, ethical approval may have been granted by an external organisation (e.g., NHS) and this approval letter must be submitted to the SREC. 
 
-##How to apply for ethical review?##
+## How to apply for ethical review?
 A great starting point for information and resources about the ethical review process can be found at [InsidePsych](https://inside.psych.cf.ac.uk/). Log in with your Cardiff University credentials and navigate to the _**Ethics**_ tab which can be found in the Undergraduate, Postgraduate, and Staff pages. 
 
-### Types of applications ###
+## Mandatory Research Integrity Training
+All researchers must complete the Cardiff University Research Integrity Training module. PGRs and staff members should automatically find this as an enrollment on their Learning Central page. UGRs can access it [here](https://intranet.cardiff.ac.uk/staff/training-and-development/staff-courses-and-programmes/research-careers/training/research-integrity-online-training-programme).
+
+### Types of applications 
 All applications and supporting documents must be emailed to the Ethics committee at psychethics@cardiff.ac.uk 
 
 **1. Fast track applications:** This procedure is used for proposals that do not raise any ethical issues and recruits participants from the School's participant panel. To recruit from the panel, you will need to sign up for a researcher account on the School of Psychology's [Experimental Management System](https://cardiff.sona-systems.com/Default.aspx?ReturnUrl=/) and obtain ethical approval before you begin recruiting participants. Fast track applications can also be used to make minor amendments to a project that has been previously approved. These applications must be submitted by midday on a Friday and a decision will be made within 7-10 days.
@@ -23,12 +26,12 @@ For example, a researcher may want to study the effectiveness of recall in diffe
 
 **4. Amendments to approved projects:** Sometimes, changes may be made to a project that already has ethical approval. If they are changes to the research team or the project end date then send an email to the Ethics Committee with the details of the change and the project's ethics reference number. All other changes require the submission of a new ethics proforma along with the previous ethics reference number for the project. Remember to provide sufficient detail about the changes as if they are minor amendments they will be dealt with through the fast track route while if they are major changes they will be considered in the same way as a full proposal.
 
-##What forms will I need to complete?##
+## What forms will I need to complete?
 
-### Ethics proforma###
+### Ethics proforma
 An ethics proforma must be completed for all applications except those seeking approval for minor amendments. The proforma can be downloaded [here](https://inside.psych.cf.ac.uk/). You will also find guidance notes for the proforma on this page. The proforma asks for details about your study - who is conducting it, who are the participants, and what methods will be employed. If you are conducting a project with no foreseeable ethical considerations then your application will be considered under the fast track route and you will need to describe the study in Box A. If you are conducting a project that raises ethical considerations then choose Box B and write a full proposal.
 
-###Full proposal###
+### Full proposal
 The purpose of a full proposal is to provide the Ethics committee with sufficient information about the project to help them evaluate the ethical implications and any detrimental impact that the study may have on prospective participants. Make sure to number the pages in the proposal and label appendices correctly. In addition to submitting the proforma, your proposal must contain the following information:
 
 * **Project overview:** Include information about the aims of the study, the rationale, and methodology. You must also mention the estimated start date and duration of the project.
@@ -40,7 +43,7 @@ The purpose of a full proposal is to provide the Ethics committee with sufficien
 * **Ethical considerations:** A brief description of the ethical considerations associated with the study along with a proposed plan of action to reduce their impact.
 
 
-###Risk assessment###
+### Risk assessment
 
 Risk assessments are a mandatory part of the ethical review process. When you fill in the proforma, you will also be required to complete an online risk assessment form (link available within the proforma). This form is designed to provide an overall estimate of the risk involved in the project and who is likely to be affected. You will be asked to rate, on a scale of 1 to 5, the likelihood of a hazard causing a problem and the severity of injury resulting from the hazard. For example, equipment like computers may pose a risk of electric shock, however, with control measures like PAT testing the likelihood of electric shocks may be low (rated as 1 - very unlikely) while the severity may be rated as 3 to indicate that an electric shock may lead to some temporary injuries.
 

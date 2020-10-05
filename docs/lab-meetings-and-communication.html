@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<html lang="" xml:lang="">
 <head>
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapter 3 Lab meetings and communication | Lab Handbook</title>
   <meta name="description" content="My aim with this document is to coordinate the researchers working with me so that the output from their projects is compatible, and so that every new student who joins my lab, however temporary, can find what they need to efficiently carry out their work." />
-  <meta name="generator" content="bookdown 0.14 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.19 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapter 3 Lab meetings and communication | Lab Handbook" />
   <meta property="og:type" content="book" />
@@ -24,7 +24,7 @@
 <meta name="author" content="Candice Morey" />
 
 
-<meta name="date" content="2020-02-05" />
+<meta name="date" content="2020-10-05" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -53,9 +53,9 @@
 
 
 <style type="text/css">
-a.sourceLine { display: inline-block; line-height: 1.25; }
-a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
-a.sourceLine:empty { height: 1.2em; }
+code.sourceCode > span { display: inline-block; line-height: 1.25; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
 code.sourceCode { white-space: pre; position: relative; }
 pre.sourceCode { margin: 0; }
@@ -64,14 +64,16 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 code.sourceCode { white-space: pre-wrap; }
-a.sourceLine { text-indent: -1em; padding-left: 1em; }
+code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
-pre.numberSource a.sourceLine
-  { position: relative; left: -4em; }
-pre.numberSource a.sourceLine::before
-  { content: attr(data-line-number);
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
     position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; pointer-events: all; display: inline-block;
+    border: none; display: inline-block;
     -webkit-touch-callout: none; -webkit-user-select: none;
     -khtml-user-select: none; -moz-user-select: none;
     -ms-user-select: none; user-select: none;
@@ -80,9 +82,9 @@ pre.numberSource a.sourceLine::before
   }
 pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
 div.sourceCode
-  {  }
+  {   }
 @media screen {
-a.sourceLine::before { text-decoration: underline; }
+code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 code span.al { color: #ff0000; font-weight: bold; } /* Alert */
 code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
@@ -137,8 +139,9 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="1.1.2" data-path="index.html"><a href="index.html#how-the-hierarchy-works"><i class="fa fa-check"></i><b>1.1.2</b> How the hierarchy works</a></li>
 </ul></li>
 <li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#current-lab-personnel"><i class="fa fa-check"></i><b>1.2</b> Current lab personnel</a><ul>
-<li class="chapter" data-level="1.2.1" data-path="index.html"><a href="index.html#pgrs"><i class="fa fa-check"></i><b>1.2.1</b> PGRs</a></li>
-<li class="chapter" data-level="1.2.2" data-path="index.html"><a href="index.html#ugrs"><i class="fa fa-check"></i><b>1.2.2</b> UGRs</a></li>
+<li class="chapter" data-level="1.2.1" data-path="index.html"><a href="index.html#post-doctoral-researchers"><i class="fa fa-check"></i><b>1.2.1</b> Post-doctoral researchers</a></li>
+<li class="chapter" data-level="1.2.2" data-path="index.html"><a href="index.html#pgrs"><i class="fa fa-check"></i><b>1.2.2</b> PGRs</a></li>
+<li class="chapter" data-level="1.2.3" data-path="index.html"><a href="index.html#ugrs"><i class="fa fa-check"></i><b>1.2.3</b> UGRs</a></li>
 </ul></li>
 <li class="chapter" data-level="1.3" data-path="index.html"><a href="index.html#school-of-psychology-staff-who-support-us"><i class="fa fa-check"></i><b>1.3</b> School of Psychology staff who support us</a></li>
 <li class="chapter" data-level="1.4" data-path="index.html"><a href="index.html#local-collabortors-and-academics-interested-in-memory-or-related-things"><i class="fa fa-check"></i><b>1.4</b> Local collabortors and academics interested in memory or related things</a></li>
@@ -230,8 +233,16 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="9" data-path="ethics-at-cardiff-school-of-psychology.html"><a href="ethics-at-cardiff-school-of-psychology.html"><i class="fa fa-check"></i><b>9</b> Ethics at Cardiff School of Psychology</a><ul>
-<li class="chapter" data-level="9.0.1" data-path="ethics-at-cardiff-school-of-psychology.html"><a href="ethics-at-cardiff-school-of-psychology.html#types-of-applications"><i class="fa fa-check"></i><b>9.0.1</b> Types of applications</a></li>
-<li class="chapter" data-level="9.0.2" data-path="ethics-at-cardiff-school-of-psychology.html"><a href="ethics-at-cardiff-school-of-psychology.html#ethics-proforma"><i class="fa fa-check"></i><b>9.0.2</b> Ethics proforma</a></li>
+<li class="chapter" data-level="9.1" data-path="ethics-at-cardiff-school-of-psychology.html"><a href="ethics-at-cardiff-school-of-psychology.html#who-needs-to-apply"><i class="fa fa-check"></i><b>9.1</b> Who needs to apply?</a></li>
+<li class="chapter" data-level="9.2" data-path="ethics-at-cardiff-school-of-psychology.html"><a href="ethics-at-cardiff-school-of-psychology.html#how-to-apply-for-ethical-review"><i class="fa fa-check"></i><b>9.2</b> How to apply for ethical review?</a></li>
+<li class="chapter" data-level="9.3" data-path="ethics-at-cardiff-school-of-psychology.html"><a href="ethics-at-cardiff-school-of-psychology.html#mandatory-research-integrity-training"><i class="fa fa-check"></i><b>9.3</b> Mandatory Research Integrity Training</a><ul>
+<li class="chapter" data-level="9.3.1" data-path="ethics-at-cardiff-school-of-psychology.html"><a href="ethics-at-cardiff-school-of-psychology.html#types-of-applications"><i class="fa fa-check"></i><b>9.3.1</b> Types of applications</a></li>
+</ul></li>
+<li class="chapter" data-level="9.4" data-path="ethics-at-cardiff-school-of-psychology.html"><a href="ethics-at-cardiff-school-of-psychology.html#what-forms-will-i-need-to-complete"><i class="fa fa-check"></i><b>9.4</b> What forms will I need to complete?</a><ul>
+<li class="chapter" data-level="9.4.1" data-path="ethics-at-cardiff-school-of-psychology.html"><a href="ethics-at-cardiff-school-of-psychology.html#ethics-proforma"><i class="fa fa-check"></i><b>9.4.1</b> Ethics proforma</a></li>
+<li class="chapter" data-level="9.4.2" data-path="ethics-at-cardiff-school-of-psychology.html"><a href="ethics-at-cardiff-school-of-psychology.html#full-proposal"><i class="fa fa-check"></i><b>9.4.2</b> Full proposal</a></li>
+<li class="chapter" data-level="9.4.3" data-path="ethics-at-cardiff-school-of-psychology.html"><a href="ethics-at-cardiff-school-of-psychology.html#risk-assessment"><i class="fa fa-check"></i><b>9.4.3</b> Risk assessment</a></li>
+</ul></li>
 </ul></li>
 <li class="chapter" data-level="10" data-path="data-security.html"><a href="data-security.html"><i class="fa fa-check"></i><b>10</b> Data security</a><ul>
 <li class="chapter" data-level="10.1" data-path="data-security.html"><a href="data-security.html#backing-up-digital-data"><i class="fa fa-check"></i><b>10.1</b> Backing up digital data</a><ul>
@@ -322,12 +333,10 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
             <section class="normal" id="section-">
 <div id="lab-meetings-and-communication" class="section level1">
 <h1><span class="header-section-number">Chapter 3</span> Lab meetings and communication</h1>
-<p>Every two weeks (unless there’s something unusual going on), our whole group shall meet to discuss our ongoing work, progress, plans, logistics, etc. The content of each meeting will be arranged and communicated ahead of time. All lab members are expected to attend lab meeting if at all possible. Lab members should avoid scheduling anything during lab meeting time.</p>
+<p>Perioidically, our whole group shall meet to discuss our ongoing work, progress, plans, logistics, etc. The content of each meeting will be arranged and communicated ahead of time. All lab members are expected to attend lab meeting if at all possible. Lab members should avoid scheduling anything during lab meeting time.</p>
 <div id="time-and-place" class="section level2">
 <h2><span class="header-section-number">3.1</span> Time and place</h2>
-<p>For early 2020, we are trying out 16:15 on Thursdays for lab meetings. They will be held 7.10 Tower (unless otherwise noted). Upcoming content:</p>
-<p>6 February: Discussing <a href="http://www.tandfonline.com/doi/abs/10.1080/17470218.2014.982137">Elsley &amp; Parmentier (2015)</a> to help new intern Amy start her project.</p>
-<p>13 February: Discussing <a href="DOI:%2010.1177/0956797612458528">Becker, et al. (2013)</a> in a belated post-Psychonomics round-up.</p>
+<p>For now, we are trying out 15:30 on Thursdays for lab meetings. They will be held online.</p>
 <p>Look at Slack for weekly confirmation about meeting - we are a small lab right now, and can take a more nimble approach to lab meetings.</p>
 </div>
 <div id="standing-agenda" class="section level2">
@@ -341,11 +350,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </div>
 <div id="upcoming-dates-and-extra-content" class="section level2">
 <h2><span class="header-section-number">3.3</span> Upcoming dates and extra content</h2>
-<p>I also mention here some scheduled meetings with other subsets of members or across the university that I think would interest many of us:</p>
-<p>Friday 13 March: Prof. Chris Jarrold is speaking at the School of Psychology colloquium series, 14:10, in 12.11 Tower.</p>
-<p>Thursday 19 March: Dr. Angela AuBuchon will be speaking at the Cognitive Development group meeting, 14:00, in 3.10 Tower.</p>
-<p>Saturday 2 May: Dr. Candice Morey will be giving the keynote address at the BPS Welsh branch Annual Student Conference at Wrexham Glyndwr University.</p>
-<p>1-3 September: The European Working Memory Symposium will take place at Cardiff University.</p>
+<p>I also mention here some scheduled meetings with other subsets of members or across the university that I think would interest many of us.</p>
+<p>19 - 22 November: Annual meeting of the Psychonomic Society (virtual)</p>
 </div>
 <div id="whats-in-it-for-everyone" class="section level2">
 <h2><span class="header-section-number">3.4</span> What’s in it for everyone</h2>
@@ -362,6 +368,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <h2><span class="header-section-number">3.6</span> Communication between meetings</h2>
 <p>Questions are bound to arise in between these formal opportunities to meet. One way to get resolution between meetings is to consult our lab’s Slack channel. Slack is a group chat system that we use to replace personal email when possible. There is a general channel that all lab personnel should be able to access, and sub-channels specific to individual projects. In Slack, you can see the previous communications, so you can check if the information you need is already documented there. If not, you can submit your query to whichever channel seems most appropriate. If you need a fast reply from a specific lab member, you can @ them and cause a notification to be sent to them that their opinion is required.</p>
 <p>Whenever you have a question that could be answered by one of several people, or if there are several people that probably need to know the answer, you should pose it on Slack rather than over email. Like with your email, you can tell Slack when to allow notifications to reach you so that you are not disturbed when you are not working.</p>
+<p>UGRs have a dedicated MS <em>Team</em> for communicating about their project work. If one of the Slack channels is also relevant for their project, they may also be asked to join Slack.</p>
 
 </div>
 </div>
@@ -390,12 +397,11 @@ gitbook.start({
 "github": false,
 "facebook": true,
 "twitter": true,
-"google": false,
 "linkedin": false,
 "weibo": false,
 "instapaper": false,
 "vk": false,
-"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
 },
 "fontsettings": {
 "theme": "white",
@@ -407,6 +413,10 @@ gitbook.start({
 "text": "Edit"
 },
 "history": {
+"link": null,
+"text": null
+},
+"view": {
 "link": null,
 "text": null
 },

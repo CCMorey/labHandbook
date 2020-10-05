@@ -16,7 +16,13 @@ The first thing to do is to obtain a researcher account from the EMS team. This 
 
 This is quite straightforward: when you create a new study, you will be prompted to fill in fields for all the information needed to advertize a study. Some tips: The title should be short and explanatory of what participants will do. It helps to add the word ‘PAID’ in your study as well as the amount if you are able to pay participants; this attracts participants more. Note that participants can only see the calendar with available studies on the selected day (Fig. 1). So it is not necessary to use punctuation (as you will see some studies do) to ensure your title filters to the top of the list - participants see whichever studies have availability on the day they select, not all studies.
 
+
+
+```{r, echo = FALSE}
 knitr::include_graphics("images/participantViewEMS.png")
+
+```
+
 
 This means that if you do not open any timeslots, registered participants won’t be able to see your study at all. The system is designed to minimize back-and-forth between participants and researchers scheduling them. You say when you want to work, and participants either take the appointment or leave it. This works smoothly when there is a large population of participants available. If for some reason you need to personally arrange appointments (e.g., if you are running a multi-session study and need to negotiate session times per participant within certain time frames) you can still use the system to recruit. One method for this is to add one timeslot a day and add a comment to your title saying ‘email to book’ or something of the sort. This way participants will still be able to see your experiment. 
 

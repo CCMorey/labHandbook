@@ -79,6 +79,9 @@ No one can accomplish the work we are striving to do alone. By joining this lab,
 
 Dr. Candice Coker Morey, Principal Investigator
 
+### Post-doctoral researchers
+
+Dr. David Greeno (ESRC Fellow)
 
 ### PGRs
 
@@ -86,22 +89,23 @@ Teodor Nikolov
 
 Aoife O'Mahony (co-supervised with Prof. Chris Chambers)
 
-Clara Overkott (visiting PhD researcher from the University of Zurich)
-
-Amy Hughes
-
 
 ### UGRs
 
-Aimee Elliott
+Molly Delooze
 
-Jenny Graham
+Lydia Jones
 
-George Metaxa
+Isra Mohamed
 
-Ceri O'Connell
+Rhiannon Newall
 
-Milly Roberts
+Erin Parry-Bennee
+
+Nur Ahmad Radzi
+
+
+
 
 ## School of Psychology staff who support us
 
@@ -109,7 +113,7 @@ Milly Roberts
 
 * Research administrators (psych-research-admin@cardiff.ac.uk) help with putting together and submitting grant applications.
 
-* Open Access adminstrators need to know when a paper has been accepted for publication, and can help facilitate making it OA and paying OA journal fees (Psych-OpenAccess@cardiff.ac.uk)
+* Open Access administrators need to know when a paper has been accepted for publication, and can help facilitate making it OA and paying OA journal fees (Psych-OpenAccess@cardiff.ac.uk)
 
 * Open Science Working Group (OSWG; Candice Morey and Chris Chambers, Chairs) offers advice on working transparently and shapes the School of Psychology's policy on research transparency
 
@@ -119,8 +123,6 @@ Milly Roberts
 [Prof. Chris Chambers](https://www.cardiff.ac.uk/people/view/133632-chambers-chris)
 
 [Prof. Dylan Jones](http://psych.cf.ac.uk/contactsandpeople/jonesdm.php)
-
-[Prof. Bill Macken](http://psych.cf.ac.uk/contactsandpeople/macken.php)
 
 [Dr. Richard Morey](http://psych.cf.ac.uk/contactsandpeople/moreyr.php)
 
@@ -177,15 +179,21 @@ Dr. Jaroslaw Lelonkiewcisz (PGR, University of Edinburgh)
 
 Dr. Jonathan Mall (PGR supervisee, Rijksuniversiteit Groningen)
 
+Dr. Clara Overkott (Visiting PhD student, University of Zurich)
+
 Dr. Edyta Sasin (PGR co-supervisee, Rijksuniversiteit Groningen)
 
 Dr. Florian Sense (PGR co-supervisee & UGR project, Rijksuniversiteit Groningen)
 
 Anthea Allan (MSc project, University of Edinburgh)
 
+Gerdien Boven (MSc project, Rijksuniversiteit Groningen)
+
 Erminia Fiorentino (PGR co-supervisee, University of Edinburgh)
 
 Margot Holweg (MSc project, Rijksuniversiteit Groningen)
+
+Amy Hughes (MSc rotation, Cardiff University)
 
 Kelsey Jones (MSc rotation, Cardiff University)
 
@@ -196,6 +204,8 @@ Lewis Montgomery (MSc project, University of Edinburgh)
 Rob Nijenkamp (MSc project, Rijksuniversiteit Groningen)
 
 Marina Nikoletsopoulou (MSc project, University of Edinburgh)
+
+Indira Pliska (MSc project, Rijksuniversiteit Groningen)
 
 Lieke Roetmann (MSc project, University of Edinburgh)
 
@@ -217,6 +227,8 @@ Laura Bentley (UGR project, Cardiff University)
 
 Libby Best (UGR project, Cardiff University)
 
+Lydia Beck (UGR, Rijksuniversiteit Groningen)
+
 Dr. Malte Bieler (UGR project, Rijksuniversiteit Groningen)
 
 Rieke Buggenthin (UGR project, Rijksuniversiteit Gronginen)
@@ -229,7 +241,11 @@ Emma Chubb (UG intern, Cardiff University)
 
 Yongqui Cong (UGR project, Rijksuniversiteit Groningen)
 
+Aimee Elliott (UGR project, Cardiff University)
+
 Jone McKeever Garay (UGR project, Cardiff University)
+
+Jenny Graham (UGR project, Cardiff University)
 
 Gita Gudka (UGR project, Cardiff University)
 
@@ -249,7 +265,11 @@ Kirsten McDermott (UGR project, Cardiff University)
 
 Leire Martin Mendez (UGR, Rijksuniversiteit Groningen)
 
+George Metaxa (UGR project, Cardiff University)
+
 Anne Muth (UGR project, Rijksuniversiteit Groningen)
+
+Ceri O'Connell (UGR project, Cardiff University)
 
 Sophia Oelmann (UGR project, Rijksuniversiteit Groningen)
 
@@ -262,6 +282,8 @@ Christina Protopapa (UGR project, Cardiff University)
 Nelly Rahmede (UGR project, Rijksuniversiteit Groningen)
 
 Eden Rendell (UGR project, Cardiff University)
+
+Amilia Roberts (UGR project, Cardiff University)
 
 Lee Robson (UGR project, University of Edinburgh)
 

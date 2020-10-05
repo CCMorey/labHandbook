@@ -1,14 +1,10 @@
 # Lab meetings and communication
 
-Every two weeks (unless there's something unusual going on), our whole group shall meet to discuss our ongoing work, progress, plans, logistics, etc. The content of each meeting will be arranged and communicated ahead of time. All lab members are expected to attend lab meeting if at all possible. Lab members should avoid scheduling anything during lab meeting time.
+Perioidically, our whole group shall meet to discuss our ongoing work, progress, plans, logistics, etc. The content of each meeting will be arranged and communicated ahead of time. All lab members are expected to attend lab meeting if at all possible. Lab members should avoid scheduling anything during lab meeting time.
 
 ## Time and place
 
-For early 2020, we are trying out 16:15 on Thursdays for lab meetings. They will be held 7.10 Tower (unless otherwise noted). Upcoming content:
-
-6 February: Discussing [Elsley & Parmentier (2015)](http://www.tandfonline.com/doi/abs/10.1080/17470218.2014.982137) to help new intern Amy start her project.
-
-13 February: Discussing [Becker, et al. (2013)](DOI: 10.1177/0956797612458528) in a belated post-Psychonomics round-up.
+For now, we are trying out 15:30 on Thursdays for lab meetings. They will be held online.
 
 Look at Slack for weekly confirmation about meeting - we are a small lab right now, and can take a more nimble approach to lab meetings.
 
@@ -21,15 +17,9 @@ Look at Slack for weekly confirmation about meeting - we are a small lab right n
 
 ## Upcoming dates and extra content
 
-I also mention here some scheduled meetings with other subsets of members or across the university that I think would interest many of us:
+I also mention here some scheduled meetings with other subsets of members or across the university that I think would interest many of us.
 
-Friday 13 March: Prof. Chris Jarrold is speaking at the School of Psychology colloquium series, 14:10, in 12.11 Tower. 
-
-Thursday 19 March: Dr. Angela AuBuchon will be speaking at the Cognitive Development group meeting, 14:00, in 3.10 Tower.
-
-Saturday 2 May: Dr. Candice Morey will be giving the keynote address at the BPS Welsh branch Annual Student Conference at Wrexham Glyndwr University.
-
-1-3 September: The European Working Memory Symposium will take place at Cardiff University.
+19 - 22 November: Annual meeting of the Psychonomic Society (virtual)
 
 
 ## What's in it for everyone
@@ -51,3 +41,6 @@ Sub-groups of us shall sometimes meet for specific business that doesn't involve
 Questions are bound to arise in between these formal opportunities to meet. One way to get resolution between meetings is to consult our lab's Slack channel. Slack is a group chat system that we use to replace personal email when possible. There is a general channel that all lab personnel should be able to access, and sub-channels specific to individual projects. In Slack, you can see the previous communications, so you can check if the information you need is already documented there. If not, you can submit your query to whichever channel seems most appropriate. If you need a fast reply from a specific lab member, you can @ them and cause a notification to be sent to them that their opinion is required.
 
 Whenever you have a question that could be answered by one of several people, or if there are several people that probably need to know the answer, you should pose it on Slack rather than over email. Like with your email, you can tell Slack when to allow notifications to reach you so that you are not disturbed when you are not working.
+
+UGRs have a dedicated MS *Team* for communicating about their project work. If one of the Slack channels is also relevant for their project, they may also be asked to join Slack.
+
