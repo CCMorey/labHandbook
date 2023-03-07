@@ -4,9 +4,8 @@ Perioidically, our whole group shall meet to discuss our ongoing work, progress,
 
 ## Time and place
 
-For now, we are trying out 15:30 on Thursdays for lab meetings. They will be held online.
+During term time, meetings take place on most Thursdays, 13:00-14:30. Location varies: see Teams calendar for details.
 
-Look at Slack for weekly confirmation about meeting - we are a small lab right now, and can take a more nimble approach to lab meetings.
 
 ## Standing agenda
 
@@ -17,10 +16,7 @@ Look at Slack for weekly confirmation about meeting - we are a small lab right n
 
 ## Upcoming dates and extra content
 
-I also mention here some scheduled meetings with other subsets of members or across the university that I think would interest many of us.
-
-19 - 22 November: Annual meeting of the Psychonomic Society (virtual)
-
+We have a channel on Teams for announcements about interesting conferences. A subset of us are regularly involved in meetings of the Experimental Psychology Society, the European Society for Cognitive Psychology, and the Psychonomic Society.
 
 ## What's in it for everyone
 
@@ -38,9 +34,9 @@ Sub-groups of us shall sometimes meet for specific business that doesn't involve
 
 ## Communication between meetings
 
-Questions are bound to arise in between these formal opportunities to meet. One way to get resolution between meetings is to consult our lab's Slack channel. Slack is a group chat system that we use to replace personal email when possible. There is a general channel that all lab personnel should be able to access, and sub-channels specific to individual projects. In Slack, you can see the previous communications, so you can check if the information you need is already documented there. If not, you can submit your query to whichever channel seems most appropriate. If you need a fast reply from a specific lab member, you can @ them and cause a notification to be sent to them that their opinion is required.
+Questions are bound to arise in between these formal opportunities to meet. One way to get resolution between meetings is to consult our lab's Teams channel. Microsoft Teams is a university-supported space for group chat and organization that we use to replace personal email when possible. There is a general channel that all lab personnel should be able to access, and sub-channels specific to individual projects or topics. In Teams, you can see the previous communications, so you can check if the information you need is already documented there. If not, you can submit your query to whichever channel seems most appropriate. If you need a fast reply from a specific lab member, you can direct message them or @ them in a discussion and cause a notification to be sent to them that their opinion is required.
 
-Whenever you have a question that could be answered by one of several people, or if there are several people that probably need to know the answer, you should pose it on Slack rather than over email. Like with your email, you can tell Slack when to allow notifications to reach you so that you are not disturbed when you are not working.
+Whenever you have a question that could be answered by one of several people, or if there are several people that probably need to know the answer, you should pose it on Teams rather than over email. Like with your email, you can tell Teams when to allow notifications to reach you so that you are not disturbed when you are not working.
 
-UGRs have a dedicated MS *Team* for communicating about their project work. If one of the Slack channels is also relevant for their project, they may also be asked to join Slack.
+UGR prject students similarly have a dedicated MS Team for communicating about their project work. 
 

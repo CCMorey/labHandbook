@@ -1,0 +1,167 @@
+# Running studies online
+
+## General principles
+
+To recruit online, you will need access to participants, and you will need to have hosted your experiment on a server. We have access to multiple platforms for these.
+
+### Participants
+
+We use SONA systems, locally called Experiment Management System or EMS, to recruit students as research participants. Participants may be recruited via EMS for in-person or virtal sessions.
+
+We can recruit paid participants via Prolific (which we prefer to other options for running studies online; see Uittenhove et al.'s paper about [this](https://www.journalofcognition.org/articles/10.5334/joc.259/)).
+
+### Servers
+
+Cardiff University pays for unlimited access to pavlovia.org. We can serve experiments from there. This is especially convenient when moving a study created with PsychoPy Builder online.
+
+We can also host on mindprobe.eu, a freely available JATOS server supported by ESCoP. This is an especially convenient option when working with studies created OpenSesame. To use mindprobe.eu, you must request an account. Allow some days for this process.
+
+## Automated communication between server and participant recruitment platform
+
+You need to allow for your experimental program to collect a static participant id from your recruitment platform, and also to send the participant back to their recruitment platform for completion to be acknowledged. This magic happens via the URLs provided. There is advice about this for specific platforms (see, e.g., https://inside.psych.cf.ac.uk/ sections on EMS and Qualtrics for advice from School of Psychology). The experiment URL will be something like https://jatos.mindprobe.eu/publix/0000 or https://run.pavlovia.org/UserName/experimentName. To these, you would need to append ?PROLIFIC_PID={{%PROLIFIC_ID%}} to log a Prolific Id or ?SONA_ID=%SURVEY_CODE% to log an EMS id. 
+
+## PsychoPy Builder to Pavlovia
+
+If you are creating an experiment in PsychoPy Builder, there is built-in functionality to push the paradigm to pavlovia.org. First you would need to have created an account on Pavlovia, and log into your account from PsychoPy Builder.
+
+Pavlovia uses gitlab in the background. Git is extremely useful and worthwhile to learn about. However, if you do not want to fuss with it, it is recommended to ensure that your experiment is in a fairly final stage, especially with respect to the incidental materials it will load (any spreadsheets or audio files your PsychoPy calls) before you initially push it to Pavlovia. This initial push sets up your project's GitLab page, and if you do not want to manually add new files to it, make sure everything is there on the first set-up. Pushing changes you make to your PsychoPy itself is fairly smooth via the Builder interface.
+
+## Anecdote: Instructions for transporting a paradigm from Open Sesame to MindProbe, and recruiting via Prolific
+
+The following instructions are a guide for the general process of collecting data online via mindprobe.eu and Prolific including how to set up the study and download the data set. 
+
+### Step 1: Exporting the experiment from OpenSesame 
+
+The experiment needs to be exported from OpenSesame into a zip file format that can be uploaded to Mindprobe.eu. 
+To do this in OpenSesame open your experiment and go to 'Menu' - 'Tools' - 'OSWEB' and click ‘Export experiment as a JATOS study’. Before doing this, it is worth reading through the required steps for integrating with your experiment recruitment platform at https://osdoc.cogsci.nl/3.3/manual/osweb/workflow/. Before starting the process, be sure you have included code needed to log data passed from the participant recruitment system you are using.
+
+Ensure the .osexp file is saved as a .zip file.
+
+### Step 2: Importing the experiment into Mindprobe.eu
+
+To upload the experiment into Mindprobe, open Mindprobe and click 'Import study' in the top left-hand corner of the browser. 
+Select the .zip file created in Step 1 and click 'Import.'
+The experiment will now appear in the toolbar on the left-hand side of your Mindprobe account. 
+
+It is beneficial at this stage to re-name the experiment with a title relevant to the study itself. Click on the experiment and go to 'Properties' (blue button located in the middle of the screen) to change the title. 
+
+### Step 3: Generating a study link
+
+A link for the experiment needs to be created to be shared to online data collection platforms such as Prolific.
+
+In Mindprobe click the study you wish to generate a link for using the left-hand side toolbar.
+Click the green box 'Study links'. This will take you to the 'Worker & Batch Manager' page of Mindprobe. On this page you can create study links to send to participants and organise participants into groups named batches to better handle the data.
+
+To generate a link to upload to Prolific select the green box 'Get study links' - 'Choose type' - 'General multiple.'
+
+A General Multiple link is the most suitable to use for Prolific as it can be used multiple times in the same browser by different participants. 
+
+For more information on the several types of links that can be generated via Mindprobe visit 
+https://v2.jatos.org/Worker-Types.html#-mturk-sandbox-worker.
+
+Once the link is generated copy and paste it somewhere you can easily find it. You will need it to recruit participants. 
+
+### Step 4: Begin setting up the experiment on Prolific
+
+To set up your experiment on Prolific first ensure you are in the correct workspace.
+
+Click 'New study' in the top right corner of the screen. This will take you to a window titled 'Study details' here you can fill out the relevant information including study title, study details and technical requirements including devices allowed and additional software. 
+
+Note - it is important to be as specific as possible within the study details section so that potential participants know exactly what to expect.
+
+### Step 5: Recording Prolific Ids
+
+Once the 'Study details' section is complete scroll down to the next section titled 'How to record Prolific IDs.'
+
+Click 'I'll use URL parameters' because you want to upload your study to Prolific using the link you generated in Step 3.
+In the box above, keep the text that is already in that box but change the '&' after the first 'studyID' to a '?'. The study will not run successfully without this step. 
+
+Next, paste the general multiple link you generated in step 3 in front of the text that is already in the box. 
+
+### Step 6: Generating a completion URL
+
+Continuing in Prolific, scroll down to the next section titled 'How to confirm participants have completed your study’ 
+
+In this section you want to click ‘I’ll redirect them using an URL' to redirect the participant back to Prolific once they have completed the study ran via MindProbe. This will automatically provide them with a completion code as opposed to manually providing a code for each participant.
+
+Copy the URL in the box and open your Mindrope.eu account.
+
+Once you are back in your MindProbe account, click on the experiment using the left-hand toolbar. Click on the green box 'Properties' and paste the prolific completion URL into the box named 'End Redirect URL.'
+
+### Step 7: Finish setting up the study on Prolific
+
+Once step 5 is complete return to Prolific and scroll down to the section titled 'Audience'. 
+
+Enter the number of participants you wish to recruit; this will be equivalent to the number of study spaces that will become available on Prolific. Enter the location you wish to recruit your participants from and which study distribution you intend to use.
+
+Next scroll down to the 'Pre-screen participants' section. Here, you can add demographic criteria to pre-screen participants for your study to ensure you reach your intended target audience. 
+
+Note - it is important to add your eligibility criteria for your study here for example, target age, gender or need for normal to corrected vision. You can add this information as a reminder in the study details section, but you can't specify screening criteria only within your study title/description. It is vital to enter eligibility criteria in the pre-screen section.
+
+Next scroll down and add an estimated completion time for your study and the amount you intend to pay participants for completion. Prolific has a principle of 'ethical rewards' and recommends that researchers pay participants £9 an hour. However, the minimum pay is £6 an hour. 
+
+When deciding your study cost it is important to remember the higher the payment the more motivated the participant will be to complete your study to a high standard therefore, producing a better quality of data. If you can afford £9 or more per hour, that is better.
+
+### Step 8: Publish the experiment to Prolific
+
+At this stage there are 3 options:
+
+1. Save your study as a draft and return to it at a later date when you wish to publish to Prolific. 
+
+2. View a preview of your study. You want to ensure you do this before publishing your study to proofread the study description, ensure the link to the study is working as intended and check the data is being correctly stored in Mindprobe.eu.
+
+3. Publish your study. Only do this once you have previewed your study and checked it is storing the data successfully in Mindprobe. It is a good idea to publish it first for a small sample of people to check that the links, re-direction to Prolific, and data recording are all working as intended. 
+
+You can also schedule a date and time for your study to be published by selecting the menu arrow on the 'Publish' button and then selecting 'schedule publish.'
+
+Once the study is published you are able to increase the number of study places. To do so when the study is active press 'Action' located next to your studies name then press 'Increase places.'
+
+### Step 9: Downloading your data from Mindprobe
+
+Once participants have completed your experiment on Prolific the data will be recorded on MindProbe.eu. You need to download the data from Mindprobe into a file suitable for analysis. 
+
+To complete this step go to your Mindprobe account and click on the experiment using the left-hand side toolbar. Click 'Study results'. In the middle of the screen, you should see all the data that has been collected with a time and date stamp next to each data set.
+
+A shortcut to view all the finished data is to press ‘Filter Builder’ then ‘Add condition.' In the box ‘Field’ select ‘State,’in the box ‘Condition' select ‘Equals’ and in the box ‘Value’ select ‘Finished’. To finish click the arrow to the right of the boxes. All the finished data sets will now be shown in the middle section of the screen.
+
+If you want to export the finished data only after applying this condition, click 'Export data' then 'selected'. If you want to export all the data collected on Mindprobe click 'All'.
+
+Save the data file.
+
+### Step 10: Transforming data to .csv file
+
+At this stage, the data saved in step 8 is not in readable format. It needs to be transformed into an excel file or a .csv for analysis.
+
+To complete this step open OpenSesame and click 'Tools'- 'OSWeb.' Then press '‘Download JATOS file to csv.'
+
+Click on the file and save the file as a .csv for analysis. 
+
+### Step 11: Granting participant payments
+
+Once you have checked whether a participant's data has met your inclusion criteria you need to decide whether their submission is to be approved and paid, rejected or returned. 
+
+To do this go to your Prolific workspace, click on 'Project' on the left-hand side toolbar. Here, you will see all your active, scheduled and completed  studies. Click on your study name, this will show all of the participants who have completed your study.
+
+Those who say 'Returned' next to their Prolific ID did not complete your study, left early or withdrew their consent, those who say 'Awaiting review' are those who need to be paid if there data was collected successfully. 
+
+To approve a participant payment, click the green check mark on the right-hand side of the page next to the participants prolific ID. 
+
+Alternatively, click the tick box on the left of the participant's ID and then click the blue box above that says 'Approve'. Using this method you can approve multiple participants at the same time. 
+
+If you wish to reject a participants submission click the red cross on the right-hand side next to the participant's prolific ID. This will direct you to a pop-up where you will be asked to explain why you are making a rejection for this participant. 
+
+Prolific is extremely strict regarding rejections therefore it is vital to only reject participant submissions if you have a strong reason to believe the participant has been clearly negligent. A link detailing the valid and invalid reasons for rejecting a submission are explained in detail in the following link:
+
+https://researcher-help.prolific.co/hc/en-gb/articles/360009092394-Approvals-rejections-returns. 
+
+A better alternative to rejecting a participant's submission is to ask them to return their submission. You may wish to do this is cases where there has been technical difficulties and a full set of data was not collected successfully or in cases where a participant withdrew their consent but it says 'Awaiting review' next to their Prolific ID.  
+
+To do this you need to send the participant a message politely asking them to return their submission along with your reasoning for this request. To send a message to a participant, click on your project and click the envelope next to their prolific participant ID.
+
+It is important to give participants 7 days to return their submission. If a submission is not returned during this time frame you will need to contact Prolific. Note- do not leave the submission as 'Awaiting review' because Prolific automatically approves all unapproved submissions after 21 days.
+
+Next to some participants IDs you may see 'Timed-out', if this is the case the participant exceeded the maximum amount of time decided by Prolific based on your studies duration. No further action is usually required for these types of submissions. However, occasionally a participant may message saying they completed the study, if this is the case you need to review their data. These types of submissions can then be manually approved by clicking the green tick next to their Prolific ID.
+
+
+
+

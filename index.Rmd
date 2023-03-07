@@ -79,9 +79,6 @@ No one can accomplish the work we are striving to do alone. By joining this lab,
 
 Dr. Candice Coker Morey, Principal Investigator
 
-### Post-doctoral researchers
-
-Dr. David Greeno (ESRC Fellow)
 
 ### PGRs
 
@@ -91,18 +88,25 @@ Teodor Nikolov
 
 Aoife O'Mahony (co-supervised with Prof. Chris Chambers)
 
+### Research assistants
+
+Emily Gwatkin
 
 ### UGRs
 
-Sophie Clegg
+Yuet Fong
 
-Poppy Dunbar-Jones
+Amy Hamlyn
 
-Imogen Lee
+Nadia Lewis
 
-Muhammed Nor Azam
+Mary Millar
 
-Peter Thomas
+Rigkerta Ntisa
+
+Baz Van de Vegte
+
+Emily Wiegold
 
 
 ## School of Psychology staff who support us
@@ -118,15 +122,18 @@ Peter Thomas
 
 ## Local collabortors and academics interested in memory or related things
 
+
 [Prof. Chris Chambers](https://www.cardiff.ac.uk/people/view/133632-chambers-chris)
 
-[Prof. Dylan Jones](http://psych.cf.ac.uk/contactsandpeople/jonesdm.php)
+[Dr. Lisa Evans](http://psych.cf.ac.uk/contactsandpeople/evanslh.php)
 
-[Dr. Richard Morey](http://psych.cf.ac.uk/contactsandpeople/moreyr.php)
+[Dr. David Greeno](https://www.cardiff.ac.uk/people/view/2470753-)
+
+[Dr. Dominic Guitard](https://www.cardiff.ac.uk/people/view/2670796-)
 
 [Dr. Phil Morgan](http://psych.cf.ac.uk/contactsandpeople/morganphil.php)
 
-[Dr. Lisa Evans](http://psych.cf.ac.uk/contactsandpeople/evanslh.php)
+[Dr. Richard Morey](http://psych.cf.ac.uk/contactsandpeople/moreyr.php)
 
 
 ## Current and recent international collaborators
@@ -149,11 +156,19 @@ Peter Thomas
 
 [Dr. Jelena Havelka, Leeds University](https://medhealth.leeds.ac.uk/profile/1300/956/jelena_havelka)
 
+[Dr. Helen Hodgetts, Cardiff Metropolitan University](https://www.cardiffmet.ac.uk/health/staff/Pages/Helen-Hodgetts.aspx)
+
 [Prof. Julia Karbach, University of Koblenz-Landau](https://www.uni-koblenz-landau.de/en/campus-landau/fb8/entwicklungspsychologie-und-padagogische-psychologie-en/team/prof-julia-karbach)
 
 [Dr. Naomi Langerock, University of Geneva](https://www.unige.ch/fapse/decopsy/group/patrick/)
 
+[Dr. Vanessa Loaiza, Essex University](https://www.essex.ac.uk/people/loaiz58501/vanessa-loaiza)
+
+[Dr. Hanane Ramzaoui, Louisiana State University](https://www.researchgate.net/profile/Hanane-Ramzaoui)
+
 [Dr. Stephen Rhodes, Rothman Research Institute, University of Toronto](http://stephenrho.github.io)
+
+[Dr. Alessandra Souza, University of Porto](https://sigarra.up.pt/fpceup/en/func_geral.formview?p_codigo=654770)
 
 [Dr. Evie Vergauwe, University of Geneva](https://www.unige.ch/fapse/decopsy/group/evie/)
 
@@ -161,6 +176,8 @@ Peter Thomas
 
 
 ## Alumni
+
+Dr. David Greeno (ESRC Fellow)
 
 Dr. Tanya Joseph (PDRA)
 
@@ -232,9 +249,13 @@ Emily Charnaud (UGR project, Cardiff University)
 
 Emma Chubb (UG intern and EPS Bursary winner, Cardiff University)
 
+Sophie Clegg (UG intern, Cardiff University)
+
 Yongqui Cong (UGR project, Rijksuniversiteit Groningen)
 
 Molly Delooze (UGR project, Cardiff University)
+
+Poppy Dunbar-Jones (UGR project, Cardiff University)
 
 Aimee Elliott (UGR project, Cardiff University)
 
@@ -251,6 +272,8 @@ Lydia Jones (UGR project, Cardiff University)
 Will King (UGR project, University of Edinburgh)
 
 Andrej Krakau (UGR, Rijksuniversiteit Groningen)
+
+Imogen Lee (UGR project, Cardiff University)
 
 Franziska Lehnert (UGR project, Rijksuniversiteit Groningen)
 
@@ -271,6 +294,8 @@ Isra Mohamed (UGR project, Cardiff University)
 Anne Muth (UGR project, Rijksuniversiteit Groningen)
 
 Rhiannon Newall (UGR project, Cardiff University)
+
+Muhammed Nor Azam (UGR project, Cardiff University)
 
 Ceri O'Connell (UGR project, Cardiff University)
 
@@ -298,7 +323,9 @@ Gintare Siugzdinyte (UGR project, University of Edinburgh)
 
 Teddy Spassova (UGR project, University of Edinburgh)
 
-Antonia Südkamper (UGR, Rijksuniversiteit Groningen)
+Antonia Südkamper (UGR intern, Rijksuniversiteit Groningen) 
+
+Peter Thomas (UGR project, Cardiff University)
 
 Dr. Michael J. Wolff (UGR project, Rijksuniversiteit Groningen)
 

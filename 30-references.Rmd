@@ -1,1 +1,3 @@
 `r if (knitr:::is_html_output()) '# References {-}'`
+
+Uittenhove, K., Jeanneret, S., & Vergauwe, E. (2023). From Lab-Testing to Web-Testing in Cognitive Research: Who You Test is More Important than how You Test. Journal of Cognition, 6(1), Article 1. https://doi.org/10.5334/joc.259

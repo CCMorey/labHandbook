@@ -4,21 +4,21 @@ We do basic cognitive research with young adults and children as participants. S
 
 ## 64 Park Place, room 0.05
 
-This lab is available for use by anyone in the School of Psychology, but in practice it is used mainly by us. The room contains two sound-attenuated chambers with work stations both inside and outside the chambers. Priority for using this space: studies with adult participants in which participants must run singly, and for which noise reduction is very important. (This describes most of our research.)
+This lab is available for use by anyone in the School of Psychology, but in practice it is used mainly by us. The room contains two sound-attenuated chambers with work stations both inside and outside the chambers. Priority for using this space: studies with adult participants in which participants must run singly, and for which noise reduction is very important. (This describes much of our research.)
 
-### Access to 64 PP 0.05
+### Access to 64 Park Place 0.05
 
 Request swipe-card access from the PI, who will forward your request to psychlocks@cardiff.ac.uk.
 
-### Security in 64 PP 0.05
+### Security in 64 Park Place 0.05
 
-64 PP is only accessible to personnel with swipe-card access. The Cardiff University Film Unit is based there, several staff have their offices there, and many PhD student's desks are in the building. During regular working hours, there should always be people around to help in case of an emergency. Note the signs indicating fire escape routes and current first aiders.
+64 PP is only accessible to personnel with swipe-card access. The Cardiff University Film Unit is based there, some staff have their offices there, and many PhD student's desks are in the building. During regular working hours, there should always be people around to help in case of an emergency. Note the signs indicating fire escape routes and current first aiders.
 
 As with any building that has restricted access, you should not allow anyone to follow you in when you enter, and you should not admit someone requesting to enter if you do not know who they are and what they are there for. 
 
-### Booking 64 PP 0.05
+### Booking 64 Park Place 0.05
 
-Whether you are programming your study, pilot-testing your study, or running participants, you need to schedule any work time in 64 PP 0.05 or risk being kicked out because another person scheduled it properly. 
+Whether you are programming your study, pilot-testing your study, or running participants, you need to schedule any work time in 64 Park Place 0.05 or risk being kicked out because another person scheduled it properly. 
 
 We maintain an Outlook calendar for this lab so that you may conveniently book it. You may request access to the calendar from the PI. Once granted access, you will be able to view and edit the calendar "64 Park Place 0.05" from your university MS Outlook account. 
 
@@ -32,11 +32,11 @@ We want to always faciliate efficient use of the space. Please consider the foll
 
 - Besides the date and time, your reservation should include your name, and information about what you are doing (e.g., "participant", "programming", etc.), and which booth you are reserving. This information helps other users know whether they may be able to step in during the booking, and in the event of a mis-communication about scheduling, helps prioritize.
 
-- If booths somehow become over-committed, priority will go to running scheduled participants over programming or preparing. During peak times, plan to do any programming or preparing somewhere else, and when you need to use the lab to install your programs and test them, plan to do that during a time that is inconvenient for participant testing.
+- If booths somehow become over-committed, priority will go to running scheduled participants over programming or preparing. During peak times, plan to do any programming or preparing somewhere else, and when you need to use the lab to install your programs and test them, plan to do that during a time that is inconvenient for participant testing (early in the morning is usually good for this).
 
 ### Peak usage
 
-The lab will be busiest during term times. That's mid October until mid December, mid-January until Easter break, during the regular work day (e.g., 9:30 - 16:30). Whenever possible, do not plan on having access to the lab for programming during peak times. During peak times, the best times to use the lab for preparing a protocol, installing programs, or retrieving data are early in the morning (e.g., before 9:30) and during times when both Year 1s and Year 2s have lectures. For Autumn 2018, that's Thursdays and Fridays from 10:00-11:00. For Winter 2019, there is no overlap in their timetables.
+The lab will be busiest during term times. That's mid October until mid December, mid-January until Easter break, during the regular work day (e.g., 9:30 - 16:30). Whenever possible, do not plan on having access to the lab for programming during peak times. During peak times, the best times to use the lab for preparing a protocol, installing programs, or retrieving data are early in the morning (e.g., before 9:30) and during times when both Year 1s and Year 2s have lectures (consult the Year 1 and Year 2 timetables)
 
 ### Storage
 

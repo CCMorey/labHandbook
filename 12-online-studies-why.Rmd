@@ -1,0 +1,17 @@
+# Should I run my study online?
+
+Lab work can be grueling. It can take many hours of effort to collect data in-person. Sometimes this effort is necessary; for some paradigms, we need to be certain that participants were focused on what they were meant to do, or used a certain standard of input device or speakers/headphones, or had the lights on to a certain level. 
+
+For some experiments, we do not necessarily need this degree of supervision, or can easily tell whether participants engaged from their performance on the task. In these cases, we can collect some or all of the data online. Unless you are tech-savvy and familiar with how web browsers work, collecting data online may not save you effort because the learning curve to set up your study will be steeper. You need to learn a lot about this to ensure that your participants have a good experience and that you know what they are seeing and doing. But if you can set this up, you can save a lot of time compared with collecting data in the lab.
+
+You should always talk through the pros and cons of in-person and online data collection with the other members of your team at the start of a project. There are likely resources you can work from if you decide to go for online data collection.
+
+## Key questions to ask yourself
+
+1. In my paradigm, are there plausible checks I can build in to ensure that participants engage with my task? Options include a practice session with feedback, or possibly requiring a minimum level of accuracy before a participant can proceed past practice. 
+
+2. Will I be able to tell the difference between an engaged participant and a random responder? Are there checks I can include to test for random responding?
+ 
+See this useful advice from Prof. Jenni Rodd about [ensuring data quality when running participants online](https://www.psychologicalscience.org/observer/how-to-maintain-data-quality-when-you-cant-see-your-participants#.XHzv5ldcHCF.twitter).
+
+If you cannot be sure about your data's quality if you run online, then you should plan to run in the lab.

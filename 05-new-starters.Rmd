@@ -1,0 +1,21 @@
+# When a new researcher starts
+
+There are several steps that must completed by new researchers working at Cardiff University. Some of these steps are specific to employees, but many apply to student researchers too. For employees, this list is not meant to replace your employee induction, but rather to ensure that things specific to the labs or research work are in place for you expeditiously.
+
+## Research Integrity Training
+
+The Research Integrity Training module covers research ethics. It involves various slide-show based activities and can be completed asynchronously on Learning Central. There is a quiz to pass at the end, which you may take as many times as needed. Research Integrity Training must be completed before you can be associated with any ethics protocol, and must be refreshed every two years.
+
+You can find the Research Integrity Training under *Organsiations* in Learning Central.
+
+## Information Security Training
+
+The Information Security Training module covers your responsibilities for maintaining confidentiality and complying with GDPR. It is available on Learning Central and may be completed asynchronously.
+
+You can find the Research Integrity Training under *Organisations* in Learning Central.
+
+
+## Location-specific training
+
+Depending on where in the university you are working, there may be location-specific safety training or lab inductions you are required to undertake. If working in CUBRIC, completing the CUBRIC new starters form will spark access to the CUBRIC-specific induction activities.
+
