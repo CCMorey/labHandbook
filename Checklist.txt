@@ -1,0 +1,68 @@
+Checklist for collecting data on a new study
+
+I. Trouble-shooting:
+1. Double and triple check any experiment materials constantly for mistakes, both big and small, e.g.,
+   - Are the instructions clear and correct?
+   - Is the trial/block randomization/counterbalancing working properly? 
+   - Are the number of trials/blocks/conditions correct?
+   - Is the timing of the study components (e.g., encoding, RI) correct? Are stimuli appearing how/when they should?
+   - Are the relevant measures correct (e.g., the recall recorded is what should be recorded/accurately represents the choice)? 
+   - Is the data being saved properly? Are the right columns being saved?
+2. Make sure that your experiment materials match what is described what is in your pre-registration
+3. Test yourself on any/all of the tasks involved in the experiment with a fake prolific/sona ID by previewing the study on Prolific/Sona
+4. Check that your data can be read through your analysis scripts, and ensure that you get the data that you need
+5. If appropriate, make sure that your Prolific/Sona redirect links are entered into the script 
+
+II. Prepping to go live:
+1. Make sure that any modifications from the previous "Troubleshooting" steps are made to Qualtrics/Mindprobe/etc. 
+2. Delete ONLY the data of the previous "Troubleshooting" steps, both recorded and in progress 
+   (i.e., don't delete any real data, but there should be none anyway at this stage!)
+3. Make sure that your study descriptions, exclusion criteria, etc. are properly set on Prolific/Sona
+4. If relevant, make sure that you have the necessary funds in your account (ask Jenny)
+5. Get the study ready on Prolific/Sona (links are working, exclusion criteria set, advert is clear, etc.)
+ << PROLIFIC INFO >> https://www.jatos.org/Use-Prolific.html 
+ - Import experiment onto mindprobe
+ - Make sure to uncheck "Allow reload"
+ - Go to Study Links to create a "General Single" link under "default"
+ - Make sure that this worker type is allowed by clicking the green check mark next to it
+ - To test yourself via mindprobe, you can create a new batch called "test" and create a "Personal Multiple" link -- this keeps your fake test data separate!
+ - Copy/paste the default batch link into Prolific Study Link/Sona Study URL and pass parameters PROLIFIC_PID or SURVEY_CODE. It will look like this:
+		https://jatos.mindprobe.eu/publix/0000?PROLIFIC_PID={{%PROLIFIC_ID%}} 
+		https://jatos.mindprobe.eu/publix/0000?SONA_ID=%SURVEY_CODE%
+ - If appropriate (see step I.5), enter the redirect Prolific or Sona link under "Study Properties" 
+6. Make sure that your pre-registration and any related materials are added to the OSF
+7. Make sure that your other folders and files are ready for later deposit on the OSF 
+
+III. Ongoing data collection:
+1. Start with only a few subjects at most, making sure that their data can be read in/no issues arising
+2. If there is any problem with the previous step, do NOT continue with data collection until it is resolved
+3. If testing on Prolific, leave yourself the day to monitor and compensate incoming data/answering queries quickly
+4. Read in data early and often to your analysis scripts to make sure everything is working properly before adding new subjects
+5. Add maximum workers to JATOS if appropriate/helpful under Worker & Batch Manager / Properties
+
+TIPS:
+- To download Qualtrics data: Data & Analysis -> Export Data -> download as csv and use choice text
+- To download JATOS data (https://www.jatos.org/Manage-Results.html), depends on what submit function in your script that you used:
+	- if you used jatos.submitResultData: Project -> Study Links -> Default batch -> Results -> **Export Results** -> All
+	- if you used jatos.uploadResultData: Project -> Study Links -> Default batch -> Results -> **Export Files** -> All
+		- Note that then the files are exported as a zip, and annoyingly they seem to have their own individual folders	
+		- You might want to instead download the files one by one clicking on the individual file and saving it
+
+- JATOS: The new JATOS links seem to be a different setup since starting E1 of the collaboration project -- it looks like you can still add ID at the end
+https://jatos.mindprobe.eu/publix/xrb29Po2nBZ?PROLIFIC_PID=5e06174335a7a5006aa0df98
+- JATOS: You can make single worker IDs for participants who somehow messed up and you can verify they didn't start the study
+e.g. https://jatos.mindprobe.eu/publix/3657/start?batchId=4151&personalSingleWorkerId=80781&PROLIFIC_PID=60febc18cd038bc135043084
+Then go to tinyurl.com and make it a small url with the subject's ID without all of this info in it 
+https://jatos.mindprobe.eu/publix/3656/start?batchId=4150&generalSingle&PROLIFIC_PID=5b421b9ac2e3810001763252
+
+<< FOR TWO PART STUDIES >>
+- First message:
+Thank you for participating in our study! You are invited to the next phase called Working Memory: Part 2, which you should have access to now. Please let us know if you have any trouble.
+- Second reminder message: 
+Hello! I'm writing to let you know that the places for Part 2 are filling up quickly, so please do take part soon if you are interested. There are only a few spots remaining. Cheers!
+
+Thank you for participating in our study! You are invited to the next phase called Working Memory: Part 2, which you should have access to now. Please note that there are only a few places remaining, so please sign up soon. Cheers! 
+
+Hi there, thanks for your participation! I have just paid you a bonus for participating in Part 1, but as you cannot participate in Part 2, please return the submission. Cheers!
+
+Hi there! I see that you completed part 1, but you had switched screens/exited the full screen during part 2, and so you got booted from the experiment. As advised multiple times, unfortunately this means I have to exclude and replace your data, so I cannot compensate you. So, please return your submission if you would like to avoid me rejecting it. I have credited you for your time in part 1. Cheers!

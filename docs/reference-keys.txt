@@ -4,7 +4,6 @@ our-core-team
 how-the-hierarchy-works
 current-lab-personnel
 pgrs
-research-assistants
 ugrs
 school-of-psychology-staff-who-support-us
 local-collabortors-and-academics-interested-in-memory-or-related-things

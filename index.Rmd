@@ -56,7 +56,7 @@ Post-docs are the most senior members of the lab after the PI. Depending on thei
 
 PGRs may also be paid researchers carrying out designated, funded laboratory work. For most intents, temporary paid PGRs play similar roles to PhD students, but paid PGRs will be expected to work on multiple projects, as hours permit. Paid PGRs will have the chance to be involved deeply in projects, and may have the opportunity to take ownership of a line of research. Unlike PhD students, paid PGR time may be re-directed by the PI to deal with urgent work, like collecting data needed for an invited revision.
 
-***Undergraduate Researchers*** (UGRs) are a diverse group of students with a variety of reasons for joining the lab. Some will join the lab to carry out their final-year project, and will be active lab members from 1 October until 30 April of a single academic year. Others might be visiting students (on Erasmus fellowships or an internship scheme) working for a set period as long as a calendar year. Others might be working for a short period during the summer (e.g., on a CUROP fellowship). Most UGRs are involved for less than a year, and therefore must be integrated into a larger project. UGRs learn basic research skills working in the lab, and if involved in a self-contained project (like a UG dissertation), they also take responsibility for interim communications about the work they carried out. Because their time in the lab is so limited, it is very important that UG research is well-documented so that the lab can efficiently carry it forward.
+***Undergraduate Researchers*** (UGRs) are a diverse group of students with a variety of reasons for joining the lab. Some will join the lab to carry out their final-year project, and will be active lab members from 1 October until 30 April of a single academic year. Others might be visiting students (on Erasmus fellowships or an internship scheme) working for a set period as long as a calendar year. Others might be working for a short period during the summer (e.g., on a Learning and Teaching Academy fellowship). Most UGRs are involved for less than a year, and therefore must be integrated into a larger project. UGRs learn basic research skills working in the lab, and if involved in a self-contained project (like a UG dissertation), they also take responsibility for interim communications about the work they carried out. Because their time in the lab is so limited, it is very important that UG research is well-documented so that the lab can efficiently carry it forward.
 
 ### How the hierarchy works
 
@@ -82,31 +82,21 @@ Dr. Candice Coker Morey, Principal Investigator
 
 ### PGRs
 
-Molly Delooze
+Molly Delooze, PhD student
 
-Teodor Nikolov
+Genevieve Lawson, PhD student
 
-Aoife O'Mahony (co-supervised with Prof. Chris Chambers)
+Helena Leach, PhD student co-supervised with Dr. Dominic Guitard
 
-### Research assistants
+Pamela Paniccia, MSc student
 
-Emily Gwatkin
 
 ### UGRs
 
-Yuet Fong
+Nia Jones (UGR, Learning and Teaching Academy Internship)
 
-Amy Hamlyn
+Charlotte Williams (UGR, intern from Plymouth University)
 
-Nadia Lewis
-
-Mary Millar
-
-Rigkerta Ntisa
-
-Baz Van de Vegte
-
-Emily Wiegold
 
 
 ## School of Psychology staff who support us
@@ -117,7 +107,6 @@ Emily Wiegold
 
 * Open Access administrators need to know when a paper has been accepted for publication, and can help facilitate making it OA and paying OA journal fees (Psych-OpenAccess@cardiff.ac.uk)
 
-* Open Science Working Group (OSWG; Candice Morey and Chris Chambers, Chairs) offers advice on working transparently and shapes the School of Psychology's policy on research transparency
 
 
 ## Local collabortors and academics interested in memory or related things
@@ -134,6 +123,8 @@ Emily Wiegold
 [Dr. Phil Morgan](http://psych.cf.ac.uk/contactsandpeople/morganphil.php)
 
 [Dr. Richard Morey](http://psych.cf.ac.uk/contactsandpeople/moreyr.php)
+
+[Dr. Marlene Rösner](https://research.birmingham.ac.uk/en/persons/marlene-r%C3%B6sner)
 
 
 ## Current and recent international collaborators
@@ -162,11 +153,9 @@ Emily Wiegold
 
 [Dr. Naomi Langerock, University of Geneva](https://www.unige.ch/fapse/decopsy/group/patrick/)
 
-[Dr. Vanessa Loaiza, Essex University](https://www.essex.ac.uk/people/loaiz58501/vanessa-loaiza)
+[Dr. Vanessa Loaiza, Sheffield University](https://www.sheffield.ac.uk/psychology/people/academic/vanessa-loaiza)
 
 [Dr. Hanane Ramzaoui, Louisiana State University](https://www.researchgate.net/profile/Hanane-Ramzaoui)
-
-[Dr. Stephen Rhodes, Rothman Research Institute, University of Toronto](http://stephenrho.github.io)
 
 [Dr. Alessandra Souza, University of Porto](https://sigarra.up.pt/fpceup/en/func_geral.formview?p_codigo=654770)
 
@@ -189,6 +178,10 @@ Dr. Jaroslaw Lelonkiewcisz (PGR, University of Edinburgh)
 
 Dr. Jonathan Mall (PGR supervisee, Rijksuniversiteit Groningen)
 
+Dr. Teodor Nikolov (PGR supervisee, Cardiff University)
+
+Dr. Aoife O'Mahoney (PGR co-supervisee, Cardiff University)
+
 Dr. Clara Overkott (Visiting PhD student, University of Zurich)
 
 Dr. Edyta Sasin (PGR co-supervisee, Rijksuniversiteit Groningen)
@@ -201,11 +194,15 @@ Gerdien Boven (MSc project, Rijksuniversiteit Groningen)
 
 Erminia Fiorentino (PGR co-supervisee, University of Edinburgh)
 
+Emily Gwatkin (RA, Cardiff University)
+
 Margot Holweg (MSc project, Rijksuniversiteit Groningen)
 
 Amy Hughes (MSc rotation, Cardiff University)
 
 Kelsey Jones (MSc rotation, Cardiff University)
+
+Ralitsa Kostova (RA, Cardiff University)
 
 Monica Miron (MSc project, University of Edinburgh)
 
@@ -259,11 +256,15 @@ Poppy Dunbar-Jones (UGR project, Cardiff University)
 
 Aimee Elliott (UGR project, Cardiff University)
 
+Yuet Fong (UGR project, Cardiff University)
+
 Jone McKeever Garay (UGR project, Cardiff University)
 
 Jenny Graham (UGR project, Cardiff University)
 
 Gita Gudka (UGR project, Cardiff University)
+
+Amy Hamlyn (UGR project, Cardiff University)
 
 Christian Hummeluhr (UGR, Rijksuniversiteit Groningen)
 
@@ -277,6 +278,8 @@ Imogen Lee (UGR project, Cardiff University)
 
 Franziska Lehnert (UGR project, Rijksuniversiteit Groningen)
 
+Nadia Lewis (UGR project, Cardiff University)
+
 Tuomos Lundstrom (UGR, Rijksuniversiteit Groningen)
 
 Robin Macy (UGR project, University of Edinburgh)
@@ -289,6 +292,8 @@ Leire Martin Mendez (UGR, Rijksuniversiteit Groningen)
 
 George Metaxa (UGR project, Cardiff University)
 
+Mary Millar (UGR project, Cardiff University)
+
 Isra Mohamed (UGR project, Cardiff University)
 
 Anne Muth (UGR project, Rijksuniversiteit Groningen)
@@ -296,6 +301,8 @@ Anne Muth (UGR project, Rijksuniversiteit Groningen)
 Rhiannon Newall (UGR project, Cardiff University)
 
 Muhammed Nor Azam (UGR project, Cardiff University)
+
+Rigkerta Ntisa (UGR project, Cardiff University)
 
 Ceri O'Connell (UGR project, Cardiff University)
 
@@ -327,7 +334,11 @@ Antonia Südkamper (UGR intern, Rijksuniversiteit Groningen)
 
 Peter Thomas (UGR project, Cardiff University)
 
+Emily Wiegold (UGR project, Cardiff University)
+
 Dr. Michael J. Wolff (UGR project, Rijksuniversiteit Groningen)
+
+Baz Van de Vegte (UGR, Cardiff University)
 
 Berry van den Berg (UGR project, Rijksuniversiteit Groningen)
 

@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapter 18 Organizing your research data | Lab Handbook</title>
   <meta name="description" content="My aim with this document is to coordinate the researchers working with me so that the output from their projects is compatible, and so that every new student who joins my lab, however temporary, can find what they need to efficiently carry out their work." />
-  <meta name="generator" content="bookdown 0.31 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.39 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapter 18 Organizing your research data | Lab Handbook" />
   <meta property="og:type" content="book" />
@@ -23,7 +23,7 @@
 <meta name="author" content="Candice Morey" />
 
 
-<meta name="date" content="2023-03-07" />
+<meta name="date" content="2024-08-29" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -56,7 +56,7 @@
 
 <style type="text/css">
 pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span { line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
@@ -119,6 +119,10 @@ code span.vs { color: #4070a0; } /* VerbatimString */
 code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
@@ -146,8 +150,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#current-lab-personnel"><i class="fa fa-check"></i><b>1.2</b> Current lab personnel</a>
 <ul>
 <li class="chapter" data-level="1.2.1" data-path="index.html"><a href="index.html#pgrs"><i class="fa fa-check"></i><b>1.2.1</b> PGRs</a></li>
-<li class="chapter" data-level="1.2.2" data-path="index.html"><a href="index.html#research-assistants"><i class="fa fa-check"></i><b>1.2.2</b> Research assistants</a></li>
-<li class="chapter" data-level="1.2.3" data-path="index.html"><a href="index.html#ugrs"><i class="fa fa-check"></i><b>1.2.3</b> UGRs</a></li>
+<li class="chapter" data-level="1.2.2" data-path="index.html"><a href="index.html#ugrs"><i class="fa fa-check"></i><b>1.2.2</b> UGRs</a></li>
 </ul></li>
 <li class="chapter" data-level="1.3" data-path="index.html"><a href="index.html#school-of-psychology-staff-who-support-us"><i class="fa fa-check"></i><b>1.3</b> School of Psychology staff who support us</a></li>
 <li class="chapter" data-level="1.4" data-path="index.html"><a href="index.html#local-collabortors-and-academics-interested-in-memory-or-related-things"><i class="fa fa-check"></i><b>1.4</b> Local collabortors and academics interested in memory or related things</a></li>
@@ -429,56 +432,56 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <h3><span class="header-section-number">18.2.2</span> Pull all the data together<a href="organizing-your-research-data.html#pull-all-the-data-together" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>First, the team shall compile the data associated with the project from the <em>labBackUp_cmorey</em> folder. It is essential that this folder is up-to-date ahead of the meeting - data collectors, please ensure that you have copied all data to the back-up ahead of time.</p>
 <p>At the meeting, we will use this code to compile each individual backed-up data file into a single data frame, called <em>d</em> in this example:</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="organizing-your-research-data.html#cb2-1" aria-hidden="true" tabindex="-1"></a>d <span class="ot">=</span> <span class="fu">map_df</span>(<span class="fu">list.files</span>(<span class="at">path =</span> <span class="st">&quot;&quot;</span>, <span class="at">full.names =</span> <span class="cn">TRUE</span>), </span>
-<span id="cb2-2"><a href="organizing-your-research-data.html#cb2-2" aria-hidden="true" tabindex="-1"></a>                 read_csv, <span class="at">col_names =</span> T)</span></code></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="organizing-your-research-data.html#cb2-1" tabindex="-1"></a>d <span class="ot">=</span> <span class="fu">map_df</span>(<span class="fu">list.files</span>(<span class="at">path =</span> <span class="st">&quot;&quot;</span>, <span class="at">full.names =</span> <span class="cn">TRUE</span>), </span>
+<span id="cb2-2"><a href="organizing-your-research-data.html#cb2-2" tabindex="-1"></a>                 read_csv, <span class="at">col_names =</span> T)</span></code></pre></div>
 <p>This code creates a dataframe called <em>d</em> that includes all the .csv files in the project directory, which will be entered into the <em>path</em> argument.</p>
 </div>
 <div id="anonymization" class="section level3 hasAnchor" number="18.2.3">
 <h3><span class="header-section-number">18.2.3</span> Anonymization<a href="organizing-your-research-data.html#anonymization" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>We shall then examine <em>d</em>’s headings for information that could identify the participant. Anything that has to do with the date and time of the session must be omitted. Recorded birthdates must be omitted. Usually, we would not have recorded anything more personal than that, but if so, it must be omitted at this stage.</p>
 <p>Obviously, we do need the participants’ ages to describe our sample. We can calculate that. First, it is a good idea to first look at the entries for any year-of-birth or birthdate variable to make sure they are plausible.</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="organizing-your-research-data.html#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">unique</span>(d<span class="sc">$</span>YoB)</span></code></pre></div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="organizing-your-research-data.html#cb3-1" tabindex="-1"></a><span class="fu">unique</span>(d<span class="sc">$</span>YoB)</span></code></pre></div>
 <p>This code will produce a list of each unique value at YoB in the data frame. Check that they all seem plausible. If they are not, consider whether a weird value might have been a typo by figuring out who interacted with that participant and consulting the relevant notebook. The people in the room must reach an agreement on what to do in the event of a weird value. Options include: considering the age missing for that participant, omitting the participant if they fall outside the recruited age range, judging that a transposition was entered (e.g., entering a YoB of 2020 rather than 2002 was an error because the participant was definitely an adult, or that a 2-digit value like 98 actually meant 1998). In cases where the typo seems obvious, we can decide to fix it, but this must be documented in the script.</p>
 <p>If we recorded <em>Year of Birth</em>, we can now create a new variable converting birth year to age at the time of the study. For most purposes, this does not need to be very precise. We can do this with a simple <em>mutate</em>.</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="organizing-your-research-data.html#cb4-1" aria-hidden="true" tabindex="-1"></a>d <span class="ot">=</span> d <span class="sc">%&gt;%</span> <span class="fu">mutate</span>(<span class="at">age =</span> <span class="dv">2018</span> <span class="sc">-</span> YoB) <span class="co"># current year - column name containing the birth year</span></span></code></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="organizing-your-research-data.html#cb4-1" tabindex="-1"></a>d <span class="ot">=</span> d <span class="sc">%&gt;%</span> <span class="fu">mutate</span>(<span class="at">age =</span> <span class="dv">2018</span> <span class="sc">-</span> YoB) <span class="co"># current year - column name containing the birth year</span></span></code></pre></div>
 <p>If we recorded the full birthdate, we probably need age in more precision. The R package <em>lubridate</em> is useful for sorting out birthdates and calculating precise ages from birthdates and run dates.</p>
 <p>Once we have created whatever new, anonymous variables we need from the potentially identifying data, we can create a new data set with the identifiable data omitted. We would do that with script like this, using the <em>select</em> function:</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="organizing-your-research-data.html#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Remove columns that contain ids or timestamps (times could limit the pool to specific people given that the location of the test is known)</span></span>
-<span id="cb5-2"><a href="organizing-your-research-data.html#cb5-2" aria-hidden="true" tabindex="-1"></a>symsp <span class="ot">=</span> symsp <span class="sc">%&gt;%</span> <span class="fu">select</span>(<span class="sc">-</span><span class="fu">c</span>(Clock.Information, Email, SessionDate, SessionTime)) <span class="co"># The &quot;-&quot; negates the select, meaning that everything *except* the named columns remain.</span></span></code></pre></div>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="organizing-your-research-data.html#cb5-1" tabindex="-1"></a><span class="co"># Remove columns that contain ids or timestamps (times could limit the pool to specific people given that the location of the test is known)</span></span>
+<span id="cb5-2"><a href="organizing-your-research-data.html#cb5-2" tabindex="-1"></a>symsp <span class="ot">=</span> symsp <span class="sc">%&gt;%</span> <span class="fu">select</span>(<span class="sc">-</span><span class="fu">c</span>(Clock.Information, Email, SessionDate, SessionTime)) <span class="co"># The &quot;-&quot; negates the select, meaning that everything *except* the named columns remain.</span></span></code></pre></div>
 <p>Include all the variables you want to omit within the -c() list. The resulting data frame will include everything except those variables. View the resulting data frame to check that this indeed worked as intended.</p>
 <p>This new data frame is the one we will analyze. Save it now to the PI’s local directory, and also upload it to the OSF page for this project so all of the lab personnel who need to use it can access it.</p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="organizing-your-research-data.html#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Save it - this is the version that goes on OSF</span></span>
-<span id="cb6-2"><a href="organizing-your-research-data.html#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="fu">write_csv</span>(symsp, <span class="st">&quot;symSpan_RuG_anon.csv&quot;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="organizing-your-research-data.html#cb6-1" tabindex="-1"></a><span class="co"># Save it - this is the version that goes on OSF</span></span>
+<span id="cb6-2"><a href="organizing-your-research-data.html#cb6-2" tabindex="-1"></a><span class="fu">write_csv</span>(symsp, <span class="st">&quot;symSpan_RuG_anon.csv&quot;</span>)</span></code></pre></div>
 <p>We may occasionally need the identifiable data, particularly the timestamps in it. If we need to prove that the data were collected after a certain date, these timestamps are strong evidence. But the original data need to be kept only in a secure place that is never accessible publicly and that is regularly automatically backed up. Currently the only available spaces that meet this requirement are the Shared and Home drives. Our policy: the compiled, non-anonymized data are stored on Candice Morey’s Home drive. She will store the script we write to anonymize the data and the original data on a sub-directory of My Documents/dataSets_cardiff on her Home Drive. But ideally, after the Data Round-up Meeting, the data do not need to be re-compiled again, and all analysts have the same document to work from via OSF.</p>
 </div>
 <div id="participant-exclusions" class="section level3 hasAnchor" number="18.2.4">
 <h3><span class="header-section-number">18.2.4</span> Participant exclusions<a href="organizing-your-research-data.html#participant-exclusions" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>We need to confirm that all of the data we just rounded-up are valid for analysis. Before looking at individuals’ performance, we may already know that some participants must be excluded. Depending on the study, we might have recorded responses to eligibility criteria in the data, or may have this information recorded on paper. At this point, we go through this information and compile a list of participant id numbers to leave out of analyses. We want to compile this list as early as possible in the data analysis script, so that any sub-selecting we do occurs to a data frame that already excludes ineligible participants. We also want to keep documentation of why each participant was omitted. We do this in an R markdown notebook. Here is an example code chunk documenting reasons for exclusion and carrying out the exclusions:</p>
-<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="organizing-your-research-data.html#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># The participants we are excluding based on inability to label one or more pictures: 007, 015, 018, 044</span></span>
-<span id="cb7-2"><a href="organizing-your-research-data.html#cb7-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-3"><a href="organizing-your-research-data.html#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Checking your lab&#39;s log or notes, describe any participant number who should be excluded based on those notes here.</span></span>
-<span id="cb7-4"><a href="organizing-your-research-data.html#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="co"># 37 was videoed but mouth was not visible (and there was no coder in real-time)</span></span>
-<span id="cb7-5"><a href="organizing-your-research-data.html#cb7-5" aria-hidden="true" tabindex="-1"></a><span class="co"># 54: program malfunction</span></span>
-<span id="cb7-6"><a href="organizing-your-research-data.html#cb7-6" aria-hidden="true" tabindex="-1"></a><span class="co"># 061: experimenter (CCM) accidentally modelled speech rehearsal during practice</span></span>
-<span id="cb7-7"><a href="organizing-your-research-data.html#cb7-7" aria-hidden="true" tabindex="-1"></a><span class="co"># 095, 96, 97 were siblings or friends who were run, but not members of the intended age groups. These participants do not need to be counted as &quot;excluded&quot; for the exclusions in Table B, because they were not sampled according to our plan.</span></span>
-<span id="cb7-8"><a href="organizing-your-research-data.html#cb7-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Q: Actually 96 is 6 years-old - can we include, or was there another problem? A: There is ambiguity about 96&#39;s age. Value in lab js and log are different. Experimenter is sure that the offline recording of 96&#39;s age is the correct one.</span></span>
-<span id="cb7-9"><a href="organizing-your-research-data.html#cb7-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-10"><a href="organizing-your-research-data.html#cb7-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Put all the participant ids who are to be excluded inside this list</span></span>
-<span id="cb7-11"><a href="organizing-your-research-data.html#cb7-11" aria-hidden="true" tabindex="-1"></a>exSubs <span class="ot">=</span> <span class="fu">c</span>(<span class="st">&quot;37&quot;</span>, <span class="st">&quot;007&quot;</span>, <span class="st">&quot;015&quot;</span>, <span class="st">&quot;018&quot;</span>, <span class="st">&quot;044&quot;</span>, <span class="st">&quot;54&quot;</span>,<span class="st">&quot;061&quot;</span>, <span class="st">&quot;095&quot;</span>, <span class="st">&quot;96&quot;</span>, <span class="st">&quot;97&quot;</span>)</span>
-<span id="cb7-12"><a href="organizing-your-research-data.html#cb7-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-13"><a href="organizing-your-research-data.html#cb7-13" aria-hidden="true" tabindex="-1"></a>d <span class="ot">=</span> d <span class="sc">%&gt;%</span> <span class="fu">filter</span>(<span class="sc">!</span>(participant_id<span class="sc">%in%</span>(exSubs)))</span>
-<span id="cb7-14"><a href="organizing-your-research-data.html#cb7-14" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-15"><a href="organizing-your-research-data.html#cb7-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Note excluded participants ages for inclusion in Table B</span></span>
-<span id="cb7-16"><a href="organizing-your-research-data.html#cb7-16" aria-hidden="true" tabindex="-1"></a><span class="co"># 007 - 5 years</span></span>
-<span id="cb7-17"><a href="organizing-your-research-data.html#cb7-17" aria-hidden="true" tabindex="-1"></a><span class="co"># 015 - 6 years</span></span>
-<span id="cb7-18"><a href="organizing-your-research-data.html#cb7-18" aria-hidden="true" tabindex="-1"></a><span class="co"># 018 - 6 years</span></span>
-<span id="cb7-19"><a href="organizing-your-research-data.html#cb7-19" aria-hidden="true" tabindex="-1"></a><span class="co"># 044 - 6 years</span></span>
-<span id="cb7-20"><a href="organizing-your-research-data.html#cb7-20" aria-hidden="true" tabindex="-1"></a><span class="co"># 54 - 5 years</span></span>
-<span id="cb7-21"><a href="organizing-your-research-data.html#cb7-21" aria-hidden="true" tabindex="-1"></a><span class="co"># 061 - 6 years</span></span>
-<span id="cb7-22"><a href="organizing-your-research-data.html#cb7-22" aria-hidden="true" tabindex="-1"></a><span class="co"># 37 - 6 years</span></span>
-<span id="cb7-23"><a href="organizing-your-research-data.html#cb7-23" aria-hidden="true" tabindex="-1"></a><span class="co"># Totals:</span></span>
-<span id="cb7-24"><a href="organizing-your-research-data.html#cb7-24" aria-hidden="true" tabindex="-1"></a><span class="co"># 5 years: 2</span></span>
-<span id="cb7-25"><a href="organizing-your-research-data.html#cb7-25" aria-hidden="true" tabindex="-1"></a><span class="co"># 6 years: 5</span></span></code></pre></div>
+<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="organizing-your-research-data.html#cb7-1" tabindex="-1"></a><span class="co"># The participants we are excluding based on inability to label one or more pictures: 007, 015, 018, 044</span></span>
+<span id="cb7-2"><a href="organizing-your-research-data.html#cb7-2" tabindex="-1"></a></span>
+<span id="cb7-3"><a href="organizing-your-research-data.html#cb7-3" tabindex="-1"></a><span class="co"># Checking your lab&#39;s log or notes, describe any participant number who should be excluded based on those notes here.</span></span>
+<span id="cb7-4"><a href="organizing-your-research-data.html#cb7-4" tabindex="-1"></a><span class="co"># 37 was videoed but mouth was not visible (and there was no coder in real-time)</span></span>
+<span id="cb7-5"><a href="organizing-your-research-data.html#cb7-5" tabindex="-1"></a><span class="co"># 54: program malfunction</span></span>
+<span id="cb7-6"><a href="organizing-your-research-data.html#cb7-6" tabindex="-1"></a><span class="co"># 061: experimenter (CCM) accidentally modelled speech rehearsal during practice</span></span>
+<span id="cb7-7"><a href="organizing-your-research-data.html#cb7-7" tabindex="-1"></a><span class="co"># 095, 96, 97 were siblings or friends who were run, but not members of the intended age groups. These participants do not need to be counted as &quot;excluded&quot; for the exclusions in Table B, because they were not sampled according to our plan.</span></span>
+<span id="cb7-8"><a href="organizing-your-research-data.html#cb7-8" tabindex="-1"></a><span class="co"># Q: Actually 96 is 6 years-old - can we include, or was there another problem? A: There is ambiguity about 96&#39;s age. Value in lab js and log are different. Experimenter is sure that the offline recording of 96&#39;s age is the correct one.</span></span>
+<span id="cb7-9"><a href="organizing-your-research-data.html#cb7-9" tabindex="-1"></a></span>
+<span id="cb7-10"><a href="organizing-your-research-data.html#cb7-10" tabindex="-1"></a><span class="co"># Put all the participant ids who are to be excluded inside this list</span></span>
+<span id="cb7-11"><a href="organizing-your-research-data.html#cb7-11" tabindex="-1"></a>exSubs <span class="ot">=</span> <span class="fu">c</span>(<span class="st">&quot;37&quot;</span>, <span class="st">&quot;007&quot;</span>, <span class="st">&quot;015&quot;</span>, <span class="st">&quot;018&quot;</span>, <span class="st">&quot;044&quot;</span>, <span class="st">&quot;54&quot;</span>,<span class="st">&quot;061&quot;</span>, <span class="st">&quot;095&quot;</span>, <span class="st">&quot;96&quot;</span>, <span class="st">&quot;97&quot;</span>)</span>
+<span id="cb7-12"><a href="organizing-your-research-data.html#cb7-12" tabindex="-1"></a></span>
+<span id="cb7-13"><a href="organizing-your-research-data.html#cb7-13" tabindex="-1"></a>d <span class="ot">=</span> d <span class="sc">%&gt;%</span> <span class="fu">filter</span>(<span class="sc">!</span>(participant_id<span class="sc">%in%</span>(exSubs)))</span>
+<span id="cb7-14"><a href="organizing-your-research-data.html#cb7-14" tabindex="-1"></a></span>
+<span id="cb7-15"><a href="organizing-your-research-data.html#cb7-15" tabindex="-1"></a><span class="co"># Note excluded participants ages for inclusion in Table B</span></span>
+<span id="cb7-16"><a href="organizing-your-research-data.html#cb7-16" tabindex="-1"></a><span class="co"># 007 - 5 years</span></span>
+<span id="cb7-17"><a href="organizing-your-research-data.html#cb7-17" tabindex="-1"></a><span class="co"># 015 - 6 years</span></span>
+<span id="cb7-18"><a href="organizing-your-research-data.html#cb7-18" tabindex="-1"></a><span class="co"># 018 - 6 years</span></span>
+<span id="cb7-19"><a href="organizing-your-research-data.html#cb7-19" tabindex="-1"></a><span class="co"># 044 - 6 years</span></span>
+<span id="cb7-20"><a href="organizing-your-research-data.html#cb7-20" tabindex="-1"></a><span class="co"># 54 - 5 years</span></span>
+<span id="cb7-21"><a href="organizing-your-research-data.html#cb7-21" tabindex="-1"></a><span class="co"># 061 - 6 years</span></span>
+<span id="cb7-22"><a href="organizing-your-research-data.html#cb7-22" tabindex="-1"></a><span class="co"># 37 - 6 years</span></span>
+<span id="cb7-23"><a href="organizing-your-research-data.html#cb7-23" tabindex="-1"></a><span class="co"># Totals:</span></span>
+<span id="cb7-24"><a href="organizing-your-research-data.html#cb7-24" tabindex="-1"></a><span class="co"># 5 years: 2</span></span>
+<span id="cb7-25"><a href="organizing-your-research-data.html#cb7-25" tabindex="-1"></a><span class="co"># 6 years: 5</span></span></code></pre></div>
 <p>The object <em>exSubs</em> lists each participant id to be omitted. It is important that this list reflects how the data were recorded. We should check at this point whether the participant ids were recorded as characters (and should therefore be inside ““s) or as numbers (no quotes). When they are characters, we should confirm that each participant id is unique and always recorded with the exact same character string (and that that character string is the one we put in exSubs).</p>
 <p>The <em>filter</em> function performed on data frame data instructs R to keep all rows where the participant id does not match one from the exSubs list.</p>
 <p>We will also conduct any performance-based checks that may be needed at this point, and add participants who do not meet them to the exSubs list and run the filtering step.</p>
