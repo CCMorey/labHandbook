@@ -124,6 +124,8 @@ Charlotte Williams (UGR, intern from Plymouth University)
 
 [Dr. Richard Morey](http://psych.cf.ac.uk/contactsandpeople/moreyr.php)
 
+[Dr. Teodor Nikolov](https://profiles.cardiff.ac.uk/staff/nikolovty)
+
 [Dr. Marlene Rösner](https://research.birmingham.ac.uk/en/persons/marlene-r%C3%B6sner)
 
 
@@ -170,23 +172,21 @@ Dr. David Greeno (ESRC Fellow)
 
 Dr. Tanya Joseph (PDRA)
 
-Ralitsa Kostova (RA)
+[Dr Jason Doherty (PGR co-supervisee, University of Edinburgh)](https://www.slu.edu/medicine/ahead/about-us/ahead-team/jason-doherty.php)
 
-Dr Jason Doherty (PGR co-supervisee, University of Edinburgh)
+[Dr. Jaroslaw Lelonkiewcisz (PGR, University of Edinburgh)](https://www.researchgate.net/profile/Jaroslaw-Lelonkiewicz)
 
-Dr. Jaroslaw Lelonkiewcisz (PGR, University of Edinburgh)
+[Dr. Jonathan Mall (PGR supervisee, Rijksuniversiteit Groningen)](https://www.linkedin.com/in/drjonathanmall/)
 
-Dr. Jonathan Mall (PGR supervisee, Rijksuniversiteit Groningen)
+[Dr. Teodor Nikolov (PGR supervisee, Cardiff University)](https://profiles.cardiff.ac.uk/staff/nikolovty)
 
-Dr. Teodor Nikolov (PGR supervisee, Cardiff University)
+[Dr. Aoife O'Mahoney (PGR co-supervisee, Cardiff University)](https://linkedin.com/in/aoife-o-mahony-913769a1)
 
-Dr. Aoife O'Mahoney (PGR co-supervisee, Cardiff University)
+[Dr. Clara Overkott (Visiting PhD student, University of Zurich)](https://www.lernpraxis.ch/team/clara-overkott/)
 
-Dr. Clara Overkott (Visiting PhD student, University of Zurich)
+[Dr. Edyta Sasin (PGR co-supervisee, Rijksuniversiteit Groningen)](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/fougnie-lab/edyta-sasin.html)
 
-Dr. Edyta Sasin (PGR co-supervisee, Rijksuniversiteit Groningen)
-
-Dr. Florian Sense (PGR co-supervisee & UGR project, Rijksuniversiteit Groningen)
+[Dr. Florian Sense (PGR co-supervisee & UGR project, Rijksuniversiteit Groningen)](https://www.floriansense.com/)
 
 Anthea Allan (MSc project, University of Edinburgh)
 
@@ -202,13 +202,13 @@ Amy Hughes (MSc rotation, Cardiff University)
 
 Kelsey Jones (MSc rotation, Cardiff University)
 
-Ralitsa Kostova (RA, Cardiff University)
+[Ralitsa Kostova (RA, Cardiff University)](https://mphiliastides.org/en/team/ralitsa-kostova)
 
 Monica Miron (MSc project, University of Edinburgh)
 
 Lewis Montgomery (MSc project, University of Edinburgh)
 
-Rob Nijenkamp (MSc project, Rijksuniversiteit Groningen)
+[Dr. Rob Nijenkamp (MSc project, Rijksuniversiteit Groningen)](https://www.rug.nl/staff/r.nijenkamp/)
 
 Marina Nikoletsopoulou (MSc project, University of Edinburgh)
 
@@ -216,7 +216,7 @@ Indira Pliska (MSc project, Rijksuniversiteit Groningen)
 
 Lieke Roetmann (MSc project, University of Edinburgh)
 
-Karim Rivera-Lares (MSc project, University of Edinburgh)
+Dr. Karim Rivera-Lares (MSc project, University of Edinburgh)
 
 Madeleine van der Reijden (MSc project, Rijksuniversiteit Groningen)
 
@@ -236,7 +236,7 @@ Libby Best (UGR project, Cardiff University)
 
 Lydia Beck (UGR, Rijksuniversiteit Groningen)
 
-Dr. Malte Bieler (UGR project, Rijksuniversiteit Groningen)
+[Dr. Malte Bieler (UGR project, Rijksuniversiteit Groningen)](https://www.linkedin.com/in/maltebieler/)
 
 Rieke Buggenthin (UGR project, Rijksuniversiteit Gronginen)
 
@@ -296,7 +296,7 @@ Mary Millar (UGR project, Cardiff University)
 
 Isra Mohamed (UGR project, Cardiff University)
 
-Anne Muth (UGR project, Rijksuniversiteit Groningen)
+Dr. Anne-Katrin Muth (UGR project, Rijksuniversiteit Groningen)
 
 Rhiannon Newall (UGR project, Cardiff University)
 
@@ -336,7 +336,7 @@ Peter Thomas (UGR project, Cardiff University)
 
 Emily Wiegold (UGR project, Cardiff University)
 
-Dr. Michael J. Wolff (UGR project, Rijksuniversiteit Groningen)
+[Dr. Michael J. Wolff (UGR project, Rijksuniversiteit Groningen)](https://www.esi-frankfurt.de/people/michaelwolff/)
 
 Baz Van de Vegte (UGR, Cardiff University)
 
