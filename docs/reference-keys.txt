@@ -86,7 +86,6 @@ mandatory-research-integrity-training
 types-of-applications
 what-forms-will-i-need-to-complete
 ethics-proforma
-full-proposal
 risk-assessment
 data-security
 backing-up-digital-data

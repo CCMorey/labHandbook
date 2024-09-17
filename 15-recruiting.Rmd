@@ -12,10 +12,11 @@ EMS is convenient for researchers for several reasons. Researchers can easily si
 
 The first thing to do is to obtain a researcher account from the EMS team. This can be done by emailing psychems@cardiff.ac.uk. Just let them know that you are a researcher, working with Dr Candice Morey, and you need an account to post an experiment and shortly they will send you an email with your credentials.
 
+If you are completing your undergraduate BPS project, there is a ethics training process that you must complete before accessing EMS. Instead of emailing to request an account, your EMS account will be granted upon completion of this mandatory training.
+
 ### Administering an experiment on EMS
 
-This is quite straightforward: when you create a new study, you will be prompted to fill in fields for all the information needed to advertize a study. Some tips: The title should be short and explanatory of what participants will do. It helps to add the word ‘PAID’ in your study as well as the amount if you are able to pay participants; this attracts participants more. Note that participants can only see the calendar with available studies on the selected day (Fig. 1). So it is not necessary to use punctuation (as you will see some studies do) to ensure your title filters to the top of the list - participants see whichever studies have availability on the day they select, not all studies.
-
+This is quite straightforward: when you create a new study, you will be prompted to fill in fields for all the information needed to advertize a study. Please refer to the detailed EMS user guide linked on the EMS log in page (note - this is an internal document accessible only to Cardiff staff and students). There are strict rules for naming your study so as not to bias students in favor or against choosing your study. Available studies are listed to students in a random order. Note that participants can only see the calendar with available studies on the selected day (Fig. 1). Participants see whichever studies have availability on the day they select, not all studies.
 
 
 ```{r, echo = FALSE}
@@ -24,7 +25,7 @@ knitr::include_graphics("images/participantViewEMS.png")
 ```
 
 
-This means that if you do not open any timeslots, registered participants won’t be able to see your study at all. The system is designed to minimize back-and-forth between participants and researchers scheduling them. You say when you want to work, and participants either take the appointment or leave it. This works smoothly when there is a large population of participants available. If for some reason you need to personally arrange appointments (e.g., if you are running a multi-session study and need to negotiate session times per participant within certain time frames) you can still use the system to recruit. One method for this is to add one timeslot a day and add a comment to your title saying ‘email to book’ or something of the sort. This way participants will still be able to see your experiment. 
+This means that if you do not open any timeslots, registered participants won’t be able to see your study at all. The system is designed to minimize back-and-forth between participants and researchers scheduling them. You say when you want to work, and participants either take the appointment or leave it. This works smoothly when there is a large population of participants available. If for some reason you need to personally arrange appointments (e.g., if you are running a multi-session study and need to negotiate session times per participant within certain time frames) you can still use the system to recruit. In this case, you would need to create two studies on the system and condition participating in the second study on having completed the first. 
 
 Once you assign timeslots you can also change them, delete them, etc. Just as researchers expect courtesy from participants regarding cancelling and rescheduling, researchers must extend similar courtesy to participants. If you are offering appointments for credit, researchers and participants may cancel for any reason if they cancel 24 hours or more from the appointment time. If you must cancel a session inside 24 hours, then you must grant the participants credit. If a participant fails to show up for a credit appointment, the researcher has some discretion over what to do about it. The researcher is entitled to issue a penalty for this, and should do that unless the participant has contacted the researcher with a satisfactory reason for missing the appointment or cancelling on short notice. Assigning credits and penalties is done through EMS. Once the appointment timeslot is in the past, a dialogue for that appointment becomes available, allowing the researcher to choose whether 1) credit should be assigned, 2) the appointment was a no-show (excused), or 3) the appointment was a no-show (unexcused). Choose whichever option matches the circumstance.
 
@@ -40,11 +41,9 @@ Even when paying participants, EMS may not yield sufficient numbers during the s
 
 ### Paying participants
 
-Paying participants is essential for collecting data outside of term time, but of course it is only an option if you have a source of funding for it. Payments for participants are administered by the researcher, with funds released to the researcher by School of Psychology Finance when an appropriate budget is available to drawn upon.
+Paying participants is essential for collecting data outside of term time, but of course it is only an option if you have a source of funding for it. Payments for participants are administered by the researcher, with funds released to the researcher by School of Psychology Finance when an appropriate budget is available to draw upon.
 
-Do you have access to a participant payment budget and want to proceed? You must request the funds you need from Psychology Finance (psychfinance@cardiff.ac.uk) several days before you need the money. It can take up to 2 weeks to receive the requested funds. Psychology Finance need to know the total amount you need, what account to draw it from, and your bank details. If you are a university employee or postgrad, they will likely have your bank details. If not, they may require a staff member to request and receive the money in your name. Either way, funds make their way to the researcher's account, and the researcher is then responsible for withdrawing them to pay cash to participants, and for ensuring that receipt of all cash payments is acknowledged with the receiver's signature. To reconcile a budget, the researcher must provide documentation of how the budget was spent, including names, addresses, and signatures of all the participants receiving money, along with how much they received.
-
-Psychology Finance prefer not to release more than £500 at once (even if your source has a larger budget) and also prefers not to process a new request until the previous request has been fully reconciled. If you need more than £500 continuously, we will likely need to jointly explain this to the representative and work out a schedule.
+Do you have access to a participant payment budget and want to proceed? You must request the funds you need from Psychology Finance (psychfinance@cardiff.ac.uk) several days before you need the money. It can take up to 2 weeks to set up, so plan this well in advance. Psychology Finance need to know the total amount you need, what university account to draw it from. There is a template spreadsheet researchers must use to keep track of who has participated and how much they should be paid. Researchers must give participants who completed the study the link to Finance's Qualtrics survey, which is used to collect participants' bank information. Once per week, the contents of this online survey are married up to the ongoing spreadsheet submitted by the researcher, and participants listed in both are issued the payments.
 
 ## Children from the local community
 
@@ -64,7 +63,7 @@ There is a record of contacts attempted with local schools maintained by CUCHDS.
 
 ### How to recruit via the CUCHDS database
 
-Often, it is necessary to test children in a controlled setting. We use the CUCHDS facilities for this. CUCHDS features several child-friendly testing spaces, including some equipped with EEG, fNIRS, and eye-tracking capabilites, bookable by personnel with access. (The PI can request access on your behalf - this is done via Ali Roberts.)
+Often, it is necessary to test children in a controlled setting. We use the CUCHDS facilities for this. CUCHDS features several child-friendly testing spaces, including some equipped with EEG, fNIRS, and eye-tracking capabilites, bookable by personnel with access. (The PI can request access on your behalf - this is done via psych-facilities.)
 
 CUCHDS maintains a database of families who have indicated that they would like to take part in research projects (see TinyToTots). Access to this database is controlled by Dr. Ross Vanderwert. 
 
