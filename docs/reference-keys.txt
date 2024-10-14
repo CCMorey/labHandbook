@@ -79,6 +79,8 @@ ids-are-always-arbitrary-anonymous
 ethics-approvals-currently-in-place
 limits-of-memory-ec.17.09.12.4952g
 memory-storage-and-processing-across-the-lifespan-ec.18.09.185339gr
+incidental-memory-ec.23.05.16.6803gr
+working-memory-limits-ec.24.09.10.7051g
 ethics-at-cardiff-school-of-psychology
 who-needs-to-apply
 how-to-apply-for-ethical-review

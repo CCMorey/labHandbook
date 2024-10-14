@@ -155,8 +155,16 @@ If you are running a multi-experiment project, it is a good idea to segregate th
 
 ### Limits of memory (EC.17.09.12.4952G)
 
-This is a generic approval valid until 31 August 2022. This heading covers behavioural studies with adults (17-40 years old) in which participants are asked to try to remember something, sometimes while also doing something else. This heading currently applies to single-session studies of 90 minutes or less.
+This is a generic approval, and now historic. It covers several projects with data collection taking place through summer 2024. This heading covers behavioural studies with adults (17-40 years old) in which participants are asked to try to remember something, sometimes while also doing something else. This heading currently applies to single-session studies of 90 minutes or less.
 
 ### Memory storage and processing across the lifespan (EC.18.09.185339GR)
 
 This is a generic approval valid until 31 December 2025. This heading covers behavioural studies with adults and children, eye-tracking, and multi-session data collection. Examples of studies under this heading include manipulations of complex span tasks and the Flavell et al Registered Replication Report.
+
+### Incidental memory (EC.23.05.16.6803GR)
+
+This heading covers the paradigms where we unexpectedly ask for memory of some feature that was not originally instructed to be remembered. This includes our plans for an external many labs study and also covers EEG data acquisition.
+
+### Working memory limits (EC.24.09.10.7051G)
+
+This is a generic approval valid until 31 December 2044. It covers any short-term memory study with consenting adults in which we do not need to record any personal data and show only materials that are not upsetting. Data collection can be online or in-person, and we can collect eye tracking or EEG data.
