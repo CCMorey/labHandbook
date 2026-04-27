@@ -8,11 +8,11 @@ This lab is available for use by anyone in the School of Psychology, but in prac
 
 ### Access to 64 Park Place 0.05
 
-Request swipe-card access from the PI, who will forward your request to psychlocks@cardiff.ac.uk.
+Request swipe-card access from the PI, who will forward your request to psych-facilities@cardiff.ac.uk.
 
 ### Security in 64 Park Place 0.05
 
-64 PP is only accessible to personnel with swipe-card access. The Cardiff University Film Unit is based there, some staff have their offices there, and many PhD student's desks are in the building. During regular working hours, there should always be people around to help in case of an emergency. Note the signs indicating fire escape routes and current first aiders.
+64 Park Place is only accessible to personnel with swipe-card access. The Cardiff University Film Unit is based there, and some staff involved with Registry have their offices there. During regular working hours, there should always be people around to help in case of an emergency. Note the signs indicating fire escape routes and current first aiders.
 
 As with any building that has restricted access, you should not allow anyone to follow you in when you enter, and you should not admit someone requesting to enter if you do not know who they are and what they are there for. 
 
@@ -44,7 +44,7 @@ There are shelves in the lab which you may use to store things that you use whil
 
 ## CUCHDS
 
-http://psych.cf.ac.uk/cuchds/
+https://www.cardiff.ac.uk/research/explore/research-units/centre-for-human-developmental-science
 
 ## Laboratories in CUBRIC
 

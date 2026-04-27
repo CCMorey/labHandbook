@@ -146,13 +146,16 @@ alternatives-to-ems
 paying-participants
 children-from-the-local-community
 how-to-recruit-via-schools
-how-to-recruit-via-the-cuchds-database
+how-to-recruit-via-the-cuchds-database-for-on-campus-testing
 recruiting-via-social-media
 dealing-with-the-unexpected-during-data-collection
 the-slow-participant
 the-inattentive-participant
 sleepy-sick-or-inebriated-participants
 the-participant-with-a-lot-of-questions
+tips-and-tricks-for-working-with-children
+designing-an-experiment-for-children
+on-the-day-considerations
 organizing-your-research-data
 is-data-collection-closed
 the-data-round-up-meeting

@@ -82,30 +82,30 @@ Dr. Candice Coker Morey, Principal Investigator
 
 ### PGRs
 
-Molly Delooze, PhD student
-
 Genevieve Lawson, PhD student
 
 Helena Leach, PhD student co-supervised with Dr. Dominic Guitard
 
-Yuhao He, MSc rotation
+Kayleigh Hughes, PhD student
 
-Pamela Paniccia, MSc student
+Nuno Sobrinho, visiting PhD student from the University of Porto
 
 
 ### UGRs
 
-Samia Ali (UGR project)
+Libby Howell-Jones, UG placement student
 
-Emily Barbour (UGR project)
+Summer Cox (UGR project)
 
-Elan Gwilym (UGR project)
+Hanna Lewis (UGR project)
 
-Molly Horne (UGR project)
+Mariya Kanevska (UGR project)
 
-Harleen Kaur (UGR project)
+Scott McConnachie (UGR project)
 
-Abigail White (UGR project)
+Yilmaz Ozyahyalar (UGR project)
+
+Rebecca Underwood (UGR project)
 
 
 ## School of Psychology staff who support us
@@ -135,51 +135,43 @@ Abigail White (UGR project)
 
 [Dr. Teodor Nikolov](https://profiles.cardiff.ac.uk/staff/nikolovty)
 
-[Dr. Marlene Rösner](https://research.birmingham.ac.uk/en/persons/marlene-r%C3%B6sner)
-
 
 ## Current and recent international collaborators
-
-[Dr. Richard Allen, Leeds University](https://medhealth.leeds.ac.uk/profile/1300/958/richard_allen)
 
 [Dr. Angela AuBuchon, Boys Town National Research Hospital](https://www.boystownhospital.org/research/Faculty/Pages/Angela-AuBuchon.aspx)
 
 [Dr. Bonnie Auyeung, University of Edinburgh](https://www.ed.ac.uk/profile/bonnie-auyeung)
 
-[Dr. Louise Brown, University of Strathclyde](https://www.strath.ac.uk/staff/brownlouisedr/)
-
 [Dr. Nic Chevalier, University of Edinburgh](https://www.ed.ac.uk/profile/nicolas-chevalier)
 
 [Prof. Nelson Cowan, University of Missouri](http://memory.psych.missouri.edu/cowan.shtml)
 
-[Dr. Steve Darling, Queen Margaret University](https://www.qmu.ac.uk/schools-and-divisions/psychology-and-sociology/psychology-and-sociology-staff/dr-stephen-darling/)
-
 [Prof. Emily Elliott, Louisiana State University](https://www.lsu.edu/hss/psychology/faculty/cognitive/elliott.php)
-
-[Dr. Jelena Havelka, Leeds University](https://medhealth.leeds.ac.uk/profile/1300/956/jelena_havelka)
 
 [Dr. Helen Hodgetts, Cardiff Metropolitan University](https://www.cardiffmet.ac.uk/health/staff/Pages/Helen-Hodgetts.aspx)
 
-[Prof. Julia Karbach, University of Koblenz-Landau](https://www.uni-koblenz-landau.de/en/campus-landau/fb8/entwicklungspsychologie-und-padagogische-psychologie-en/team/prof-julia-karbach)
+[Prof. Julia Karbach, University of Koblenz-Landau](https://psy.rptu.de/en/wus/cognition-and-development-lab/team/prof-julia-karbach)
 
-[Dr. Naomi Langerock, University of Geneva](https://www.unige.ch/fapse/decopsy/group/patrick/)
+[Dr. Vanessa Loaiza, Colorado State University](https://psychlabs.colostate.edu/camlab/people/)
 
-[Dr. Vanessa Loaiza, Sheffield University](https://www.sheffield.ac.uk/psychology/people/academic/vanessa-loaiza)
+[Prof. Louise Brown Nicholls, University of Strathclyde](https://www.strath.ac.uk/staff/brownlouisedr/)
 
 [Dr. Hanane Ramzaoui, Louisiana State University](https://www.researchgate.net/profile/Hanane-Ramzaoui)
 
+[Dr. Marlene Rösner, Otto von Guericke Universität Magdeburg](https://www.linkedin.com/in/marleneroesner/)
+
 [Dr. Alessandra Souza, University of Porto](https://sigarra.up.pt/fpceup/en/func_geral.formview?p_codigo=654770)
 
-[Dr. Evie Vergauwe, University of Geneva](https://www.unige.ch/fapse/decopsy/group/evie/)
-
-[Dr. Claudia von Bastian, Sheffield University](https://www.sheffield.ac.uk/psychology/staff/academic/claudia-von_bastian)
+[Dr. Evie Vergauwe, University of Geneva](https://www.unige.ch/fapse/womcogdev/home/contact/evie-vergauwe)
 
 
 ## Alumni
 
-[Dr. David Greeno (ESRC Fellow)](https://www.cardiff.ac.uk/people/view/2470753-)
+[Dr. David Greeno (ESRC Fellow)](https://profiles.cardiff.ac.uk/staff/greenodj)
 
 Dr. Tanya Joseph (PDRA)
+
+[Dr. Molly Delooze](https://www.linkedin.com/in/molly-a-delooze-68518428a/)
 
 [Dr Jason Doherty (PGR co-supervisee, University of Edinburgh)](https://www.slu.edu/medicine/ahead/about-us/ahead-team/jason-doherty.php)
 
@@ -205,6 +197,8 @@ Erminia Fiorentino (PGR co-supervisee, University of Edinburgh)
 
 Emily Gwatkin (RA, Cardiff University)
 
+Yuhao He (MSc rotation, Cardiff University)
+
 Margot Holweg (MSc project, Rijksuniversiteit Groningen)
 
 Amy Hughes (MSc rotation, Cardiff University)
@@ -220,6 +214,8 @@ Lewis Montgomery (MSc project, University of Edinburgh)
 [Dr. Rob Nijenkamp (MSc project, Rijksuniversiteit Groningen)](https://www.rug.nl/staff/r.nijenkamp/)
 
 Marina Nikoletsopoulou (MSc project, University of Edinburgh)
+
+Pamela Paniccia (MSc student, Cardiff University)
 
 Indira Pliska (MSc project, Rijksuniversiteit Groningen)
 
@@ -237,7 +233,11 @@ Andrea Winkens (MSc project, Rijksuniversiteit Groningen)
 
 Ieva Zeromskaite (MSc project, University of Edinburgh)
 
+Samia Ali (UGR project, Cardiff University)
+
 Amy Andrews (UGR, University of Edinburgh)
+
+Emily Barbour (UGR project, Cardiff University)
 
 Laura Bentley (UGR project, Cardiff University)
 
@@ -273,13 +273,19 @@ Jenny Graham (UGR project, Cardiff University)
 
 Gita Gudka (UGR project, Cardiff University)
 
+Elan Gwilym (UGR project, Cardiff University)
+
 Amy Hamlyn (UGR project, Cardiff University)
+
+Molly Horne (UGR project, Cardiff University)
 
 Christian Hummeluhr (UGR, Rijksuniversiteit Groningen)
 
 Lydia Jones (UGR project, Cardiff University)
 
 Nia Jones (UG intern, Cardiff University)
+
+Harleen Kaur (UGR project, Cardiff University)
 
 Will King (UGR project, University of Edinburgh)
 
@@ -295,7 +301,7 @@ Tuomos Lundstrom (UGR, Rijksuniversiteit Groningen)
 
 Robin Macy (UGR project, University of Edinburgh)
 
-[Dr. Silvana Mareva (UGR, University of Edinburgh)](https://psychology.exeter.ac.uk/people/profile/index.php?web_id=silvana_mareva)
+[Dr. Silvana Mareva (UGR, University of Edinburgh)](https://experts.exeter.ac.uk/40393-silvana-mareva)
 
 Kirsten McDermott (UGR project, Cardiff University)
 
@@ -345,9 +351,13 @@ Teddy Spassova (UGR project, University of Edinburgh)
 
 Peter Thomas (UGR project, Cardiff University)
 
+Abigail White (UGR project, Cardiff University)
+
 Emily Wiegold (UGR project, Cardiff University)
 
 Charlotte Williams (UG intern, visiting Cardiff University from Plymouth University)
+
+Harrison Wilson (UG intern, Cardiff University)
 
 [Dr. Michael J. Wolff (UGR project, Rijksuniversiteit Groningen)](https://www.esi-frankfurt.de/people/michaelwolff/)
 
